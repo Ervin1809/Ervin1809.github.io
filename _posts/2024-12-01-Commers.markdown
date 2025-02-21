@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Creating an E-Commerce Website"
+date: 2024-12-01
+categories: Project
+tags: [Laravel, HTML, PHP]
+---
+
+# Create an E-Commerce Website
+
+This project is a **Laravel** based e-commerce platform designed to provide a fast, secure and convenient online shopping experience. With modern features such as **product management, purchasing system, order tracking, and admin dashboard**, this platform is suitable for businesses that want to expand their digital reach.
+
+## Technology Used
+- **Laravel** – PHP framework for fast and efficient web development
+- **PHP** – Backend programming language
+- **MySQL** – Relational database for storing product and transaction data
+- **Bootstrap** – CSS library for responsive displays (optional, if used)
+
+## The final result
+🔗 [View Demo](https://yourprojectdemo.com)
+🔗 [Source Code](https://github.com/Ervin1809/VinkerShop)
