@@ -1,7 +1,7 @@
 ---
 layout: default
 title: VinkerTrack - Personal Nutrition Tracker
-description: Android application untuk tracking nutrisi harian dengan integrasi USDA Food Data Central API
+description: Android application for daily nutrition tracking integrated with USDA Food Data Central API
 date: 2025-06-11
 categories: Project
 tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutrition-Tracker, Mobile-App, Health-Tech]
@@ -23,38 +23,38 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 
 ## 🎯 Overview
 
-**VinkerTrack** adalah aplikasi mobile Android yang dirancang untuk membantu pengguna melacak dan mengelola asupan nutrisi harian mereka secara akurat dan efisien. Aplikasi ini mengintegrasikan data nutrisi dari **USDA Food Data Central API** untuk memberikan informasi nutrisi yang terpercaya dari ribuan bahan makanan.
+**VinkerTrack** is an Android mobile application designed to help users track and manage their daily nutrition intake accurately and efficiently. This app integrates nutrition data from the **USDA Food Data Central API** to provide reliable information from thousands of food ingredients.
 
 ### 💡 Key Benefits
 
-✅ **Akurat**: Data nutrisi dari USDA Food Data Central
-✅ **Personal**: Perhitungan kebutuhan berdasarkan profil individual
-✅ **Mudah**: Interface intuitif dengan Material Design
-✅ **Lengkap**: Tracking komprehensif untuk semua waktu makan
+✅ **Accurate**: Nutrition data provided by USDA Food Data Central
+✅ **Personalized**: Calculations based on individual user profiles
+✅ **Easy to Use**: Intuitive interface with Material Design
+✅ **Comprehensive**: Complete tracking for all meal times
 
 ---
 
 ## ✨ Features
 
 ### 🔐 Authentication System
-- Registrasi dengan validasi email & password
-- Login aman dengan session management
-- Profile management yang komprehensif
+- Registration with email & password validation
+- Secure login with session management
+- Comprehensive profile management
 
 ### 👤 Personal Profile
-- Input data personal (berat, tinggi, umur, gender)
-- 5 level aktivitas harian
-- Auto-calculation kebutuhan nutrisi
+- Input personal data (weight, height, age, gender)
+- 5 levels of daily activity
+- Auto-calculation of nutritional needs
 
 ### 🔍 Food Database
-- Real-time search USDA Food Data Central
-- Database nutrisi resmi pemerintah AS
-- Informasi lengkap per 100g
+- Real-time search using USDA Food Data Central API
+- Official nutrition database from the US government
+- Detailed information per 100g
 
 ### 🍽️ Meal Logging
-- 4 kategori waktu makan
-- Input porsi dalam gram
-- Perhitungan nutrisi real-time
+- 4 meal time categories
+- Portion input in grams
+- Real-time nutrition calculation
 
 ### 📊 Smart Analytics
 - BMR & TDEE calculation
@@ -71,33 +71,33 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 ## 🚀 Quick Start
 
 ### 📋 Requirements
-- **Android 5.0** (API 21) atau lebih tinggi
-- **Internet connection** untuk akses USDA API
-- **Storage space** minimal 50MB
+- **Android 5.0** (API 21) or higher
+- **Internet connection** for accessing the USDA API
+- **Minimum 50MB storage** space
 
 ### ⚡ Installation Steps
 
 **1. Download & Install**
 ```
-📱 Download APK dari Release page
-🔧 Enable "Install from Unknown Sources" jika diperlukan
-📲 Install aplikasi VinkerTrack
+📱 Download the APK from the Release page
+🔧 Enable "Install from Unknown Sources" if needed
+📲 Install the VinkerTrack app
 ```
 
 **2. First Time Setup**
 ```
-👤 Registrasi akun baru atau login
-📝 Lengkapi profil personal Anda
-🎯 Set target berat badan dan level aktivitas
-✅ Mulai tracking nutrisi harian!
+👤 Register a new account or login
+📝 Complete your personal profile
+🎯 Set your weight goal and activity level
+✅ Start tracking daily nutrition!
 ```
 
 **3. Daily Usage**
 ```
-🔍 Search makanan dari database USDA
-⚖️ Input berat makanan dalam gram
-📊 Monitor progress nutrisi harian
-📈 Review history dan trends
+🔍 Search foods from the USDA database
+⚖️ Input food weight in grams
+📊 Monitor daily nutrition progress
+📈 Review history and trends
 ```
 
 ---
@@ -129,21 +129,21 @@ VinkerTrack Android App
 
 **Core Tables Overview:**
 
-| Table | Purpose | Key Fields |
-|-------|---------|------------|
-| users | User authentication | id, email, password, created_at |
-| user_profiles | Personal data & targets | weight, height, age, activity_level |
-| ingredients | USDA food database | fdc_id, name, nutrition_per_100g |
-| food_logs | Daily meal tracking | date, meal_time, total_nutrition |
-| food_log_items | Individual food entries | weight_grams, calculated_nutrition |
+| Table          | Purpose                    | Key Fields                          |
+|----------------|---------------------------|-------------------------------------|
+| users          | User authentication       | id, email, password, created_at     |
+| user_profiles  | Personal data & targets   | weight, height, age, activity_level |
+| ingredients    | USDA food database        | fdc_id, name, nutrition_per_100g    |
+| food_logs      | Daily meal tracking       | date, meal_time, total_nutrition    |
+| food_log_items | Individual food entries   | weight_grams, calculated_nutrition  |
 
 ### 🌐 USDA API Integration
 
 ```java
-// Real-time food search dengan USDA Food Data Central
+// Real-time food search with USDA Food Data Central
 Search Query → USDA API → Nutrition Data → Local Cache
 // Accurate nutrition data for 300,000+ food items
-// Fast response dengan OkHttp & Retrofit2
+// Fast response using OkHttp & Retrofit2
 ```
 
 ### 🧮 Nutrition Calculation Engine
@@ -165,6 +165,7 @@ Search Query → USDA API → Nutrition Data → Local Cache
 - Fat: `30%` of daily calories
 
 ---
+
 ## 📱 Screenshots & Demo
 
 ### 🔐 Authentication
@@ -239,16 +240,6 @@ Search Query → USDA API → Nutrition Data → Local Cache
 </table>
 
 </div>
-
-### ✨ Key Features Showcase
-- **🔐 Secure Authentication**: Email validation & password encryption
-- **🔍 Smart Food Search**: Access to 300,000+ food items from USDA database
-- **👤 Personal Profiles**: Customized nutrition targets based on individual goals
-- **📊 Real-time Analytics**: BMR, TDEE, and macro distribution calculations
-- **🍽️ Meal Logging**: Track breakfast, lunch, dinner, and snacks
-- **🌙 Auto Dark Mode**: Seamless theme switching based on system preferences
-
----
 
 ### ✨ Key Features Showcase
 - **🔐 Secure Authentication**: Email validation & password encryption

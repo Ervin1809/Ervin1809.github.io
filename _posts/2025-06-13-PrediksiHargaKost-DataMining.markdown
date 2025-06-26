@@ -1,54 +1,52 @@
 ---
 layout: default
-title: Data Mining - Model Prediksi
-description: Pengembangan Model Prediksi Harga Sewa Kos Di Makassar
+title: Data Mining - Prediction Model
+description: Development of a Rental Price Prediction Model for Boarding Houses in Makassar
 date: 2025-06-13
 categories: Project
 tags: [Python, XGBoost Regressor, Scikit-Learn, Geopy, Matplotlib, Seaborn, Selenium, Pandas, Numpy]
 ---
 
-# Pengembangan Model Prediksi Harga Sewa Kos di Makassar Menggunakan Teknik Data Mining
+# Development of a Boarding House Rental Price Prediction Model in Makassar Using Data Mining Techniques
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
+## 📋 Project Description
 
+This project develops a rental price prediction model for boarding houses in Makassar City using data mining and machine learning techniques. The model aims to help property owners set objective and competitive rental prices based on data analysis.
 
-## 📋 Deskripsi Proyek
+### 🎯 Research Objectives
+- Identify factors affecting boarding house rental prices in Makassar
+- Build an accurate prediction model using data mining techniques
+- Develop a decision support prototype tool for property owners
 
-Proyek ini mengembangkan model prediksi harga sewa kos di Kota Makassar menggunakan teknik data mining dan machine learning. Model ini bertujuan untuk membantu pemilik properti dalam menetapkan harga sewa yang objektif dan kompetitif berdasarkan analisis data.
+## 🏆 Main Results
 
-### 🎯 Tujuan Penelitian
-- Mengidentifikasi faktor-faktor yang mempengaruhi harga sewa kos di Makassar
-- Membangun model prediksi yang akurat menggunakan teknik data mining
-- Mengembangkan prototipe alat bantu keputusan untuk pemilik properti
-
-## 🏆 Hasil Utama
-
-- **Model Terbaik**: XGBoost Regressor
-- **Mean Absolute Error (MAE)**: Rp 219.420
-- **R-squared (R²)**: 0.606 (60.6% variasi harga dapat dijelaskan)
-- **Faktor Penentu Utama**: AC, Kloset Duduk, Tipe Campur, Lokasi
+- **Best Model:** XGBoost Regressor
+- **Mean Absolute Error (MAE):** Rp 219,420
+- **R-squared (R²):** 0.606 (60.6% of price variance explained)
+- **Key Determinants:** AC, Sitting Toilet, Mixed Type, Location
 
 ## 📊 Dataset
 
-- **Sumber Data**: Web scraping dari Mamikos.com
-- **Jumlah Data Awal**: 1,162 listing
-- **Data Final**: 562 listing unik (setelah pembersihan duplikasi)
-- **Cakupan**: Seluruh Kota Makassar
+- **Data Source:** Web scraping from Mamikos.com
+- **Initial Data Count:** 1,162 listings
+- **Final Data:** 562 unique listings (after deduplication)
+- **Coverage:** All districts of Makassar City
 
-### Fitur Dataset:
-- Harga sewa bulanan
-- Lokasi (kecamatan)
-- Tipe kos (putra, putri, campur)
-- Fasilitas yang tersedia
-- Jarak ke kampus-kampus utama
+### Dataset Features:
+- Monthly rental price
+- Location (district)
+- Boarding house type (male, female, mixed)
+- Available facilities
+- Distance to main universities
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-### Bahasa Pemrograman
+### Programming Language
 - **Python 3.8+**
 
-### Library Utama
+### Main Libraries
 ```python
 # Data Manipulation & Analysis
 pandas
@@ -69,132 +67,132 @@ matplotlib
 seaborn
 ```
 
-## 📁 Struktur Proyek
+## 📁 Project Structure
 
 ```
 kos-price-prediction/
 │
 ├── data/
-│   ├── raw/                    # Data mentah hasil scraping
-│   ├── processed/              # Data yang sudah diproses
-│   └── final/                  # Data final untuk modeling
+│   ├── raw/                    # Raw scraped data
+│   ├── processed/              # Processed data
+│   └── final/                  # Final data for modeling
 │
 ├── notebooks/
 │   ├── 01_data_collection.ipynb      # Web scraping
 │   ├── 02_data_preprocessing.ipynb   # Preprocessing & EDA
-│   ├── 03_feature_engineering.ipynb # Feature engineering
-│   ├── 04_modeling.ipynb            # Model development
-│   └── 05_evaluation.ipynb          # Model evaluation
+│   ├── 03_feature_engineering.ipynb  # Feature engineering
+│   ├── 04_modeling.ipynb             # Model development
+│   └── 05_evaluation.ipynb           # Model evaluation
 │
 ├── src/
-│   ├── data_collection.py      # Script web scraping
+│   ├── data_collection.py      # Web scraping script
 │   ├── preprocessing.py        # Data preprocessing
 │   ├── feature_engineering.py  # Feature engineering
-│   ├── models.py              # Model definitions
-│   └── utils.py               # Utility functions
+│   ├── models.py               # Model definitions
+│   └── utils.py                # Utility functions
 │
 ├── models/
-│   ├── xgboost_model.pkl      # Model XGBoost terbaik
-│   └── random_forest_model.pkl # Model Random Forest
+│   ├── xgboost_model.pkl       # Best XGBoost model
+│   └── random_forest_model.pkl # Random Forest model
 │
 ├── dashboard/                  # Prototype dashboard
-│   ├── app.py                 # Main dashboard application
-│   └── static/                # Static files
+│   ├── app.py                  # Main dashboard application
+│   └── static/                 # Static files
 │
-├── requirements.txt           # Dependencies
-├── README.md                 # Documentation
-└── LICENSE                   # License file
+├── requirements.txt            # Dependencies
+├── README.md                   # Documentation
+└── LICENSE                     # License file
 ```
 
-## 📈 Metodologi
+## 📈 Methodology
 
-### 1. Pengumpulan Data
-- Web scraping otomatis menggunakan Selenium
-- Ekstraksi dari platform Mamikos.com
-- Pengumpulan 1,162 listing awal
+### 1. Data Collection
+- Automated web scraping using Selenium
+- Extraction from Mamikos.com platform
+- Collected 1,162 initial listings
 
-### 2. Preprocessing Data
-- Pembersihan duplikasi data
-- Penanganan missing values
-- Konversi tipe data
+### 2. Data Preprocessing
+- Duplicate removal
+- Handling missing values
+- Data type conversion
 
 ### 3. Feature Engineering
-- **Encoding Fasilitas**: MultiLabelBinarizer untuk fitur fasilitas
-- **Encoding Tipe Kos**: One-Hot Encoding untuk kategori tipe kos
-- **Fitur Spasial**: Perhitungan jarak Haversine ke kampus-kampus utama
+- **Facilities Encoding:** MultiLabelBinarizer for facilities features
+- **Boarding Type Encoding:** One-Hot Encoding for type categories
+- **Spatial Features:** Haversine distance calculation to main campuses
 
-### 4. Penanganan Outlier
-- Metode Interquartile Range (IQR)
-- Batas atas = Q3 + 1.5 × IQR
-- Peningkatan signifikan performa setelah penanganan outlier
+### 4. Outlier Handling
+- Interquartile Range (IQR) method
+- Upper bound = Q3 + 1.5 × IQR
+- Significant performance improvement after outlier handling
 
 ### 5. Model Development
 - **Random Forest Regressor**
-- **XGBoost Regressor** (Model Terbaik)
-- Split data: 80% training, 20% testing
+- **XGBoost Regressor** (Best Model)
+- Data split: 80% training, 20% testing
 
-## 📊 Hasil Evaluasi
+## 📊 Evaluation Results
 
-| Model | MAE (Rupiah) | RMSE (Rupiah) | R-squared |
-|-------|--------------|---------------|-----------|
-| Random Forest | 238,753 | 332,766 | 0.531 |
-| **XGBoost** | **219,420** | **302,442** | **0.606** |
+| Model           | MAE (Rupiah) | RMSE (Rupiah) | R-squared |
+|-----------------|--------------|---------------|-----------|
+| Random Forest   | 238,753      | 332,766       | 0.531     |
+| **XGBoost**     | **219,420**  | **302,442**   | **0.606** |
 
 ## 🔍 Feature Importance
 
-Berdasarkan analisis XGBoost, 10 faktor teratas yang mempengaruhi harga:
+According to XGBoost analysis, the top 10 factors influencing rental price are:
 
-1. **AC** (0.607) - Faktor dominan
-2. **Kloset Duduk** (0.090)
-3. **Tipe Kos Campur** (0.053)
-4. **Lokasi Ujung Pandang** (0.041)
+1. **AC** (0.607) - Dominant factor
+2. **Sitting Toilet** (0.090)
+3. **Mixed Type Boarding** (0.053)
+4. **Ujung Pandang Location** (0.041)
 5. **WiFi**
-6. **Akses 24 Jam**
-7. **Kamar Mandi Dalam**
-8. **Jarak ke Kampus**
-9. **Kasur**
-10. **Lokasi Rappocini**
+6. **24-Hour Access**
+7. **En Suite Bathroom**
+8. **Distance to Campus**
+9. **Mattress**
+10. **Rappocini Location**
 
-## 🎯 Implikasi Praktis
+## 🎯 Practical Implications
 
-### Untuk Pemilik Properti:
-- Alat bantu penetapan harga objektif
-- Panduan investasi fasilitas berdasarkan data
-- Mengurangi risiko overpricing/underpricing
+### For Property Owners:
+- Objective pricing decision support tool
+- Data-driven facility investment guide
+- Reduce risk of overpricing/underpricing
 
-### Untuk Penelitian Lanjutan:
-- Baseline model untuk pengembangan lebih lanjut
-- Framework yang dapat diadaptasi untuk kota lain
+### For Further Research:
+- Baseline model for future development
+- Framework adaptable for other cities
 
-## 🔮 Pengembangan Masa Depan
+## 🔮 Future Development
 
-- [ ] Web scraping data yang lebih detail (luas kamar, foto properti)
-- [ ] Dashboard interaktif dengan analisis SHAP
-- [ ] Implementasi model Neural Network (MLP)
-- [ ] Optimasi hyperparameter lebih ekstensif
-- [ ] Integrasi data real-time dan analisis tren temporal
+- [ ] More detailed web scraping (room size, property photos)
+- [ ] Interactive dashboard with SHAP analysis
+- [ ] Neural Network (MLP) model implementation
+- [ ] More extensive hyperparameter optimization
+- [ ] Real-time data integration and temporal trend analysis
 
-## 👥 Tim Peneliti
+## 👥 Research Team
 
-- **Muh. Tegar Adyaksa** - *Universitas Hasanuddin*
-- **Athifah Nur Rahman MD** - *Universitas Hasanuddin*
-- **M. Ervin** - *Universitas Hasanuddin*
-- **Cholyn Sharon Enos** - *Universitas Hasanuddin*
-- **Imam Ahmad Mirza** - *Universitas Hasanuddin*
+- **Muh. Tegar Adyaksa** - *Hasanuddin University*
+- **Athifah Nur Rahman MD** - *Hasanuddin University*
+- **M. Ervin** - *Hasanuddin University*
+- **Cholyn Sharon Enos** - *Hasanuddin University*
+- **Imam Ahmad Mirza** - *Hasanuddin University*
 
 ## 🙏 Acknowledgments
 
-Terima kasih kepada:
+Thanks to:
 - **Dr. Eng. Supri Bin Hj. Amir, S.Si., M.Eng.**
 - **Octavian, S.Si., M.Kom.**
 
-Dosen pengampu mata kuliah Data Mining, Universitas Hasanuddin.
+Lecturers of the Data Mining course, Hasanuddin University.
 
-## 📚 Referensi
+## 📚 References
 
 1. Al Hanif, F. I., et al. (2023). "The Effect of Campus Existence on Boarding House Rental Prices"
 2. Christian, Y., & Herman (2023). "Rental Price Prediction of Boarding Houses in Batam City"
-3. Fitri, E. (2023). "Analisis Perbandingan Metode Regresi untuk Prediksi Harga Rumah"
-4. Wisnuadhi, B., & Setiawan, I. (2021). "Rekomendasi Fitur yang Mempengaruhi Harga Sewa"
+3. Fitri, E. (2023). "Comparative Analysis of Regression Methods for House Price Prediction"
+4. Wisnuadhi, B., & Setiawan, I. (2021). "Feature Recommendations Affecting Rental Prices"
 
 ---

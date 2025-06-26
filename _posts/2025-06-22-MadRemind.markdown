@@ -1,13 +1,13 @@
 ---
 layout: default
-title: MedRemind - Aplikasi Pengingat Obat
-description: Mobile application untuk membantu pengguna mengingat jadwal konsumsi obat dengan notifikasi otomatis
+title: MedRemind - Medicine Reminder App
+description: Mobile application to help users remember their medication schedules with automatic notifications
 date: 2025-06-22
 categories: Project
 tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, Notification, Health-Tech]
 ---
 
-# MedRemind - Aplikasi Pengingat Obat 💊📱
+# MedRemind - Medicine Reminder App 💊📱
 
 ![Android](https://img.shields.io/badge/Platform-Android-green.svg)
 ![Java](https://img.shields.io/badge/Language-Java-orange.svg)
@@ -21,75 +21,75 @@ tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, No
 
 ---
 
-## 📱 Tentang MedRemind
+## 📱 About MedRemind
 
-**MedRemind** adalah aplikasi mobile yang dirancang untuk membantu pengguna mengingat jadwal konsumsi obat dengan lebih teratur dan tepat waktu. Aplikasi ini menyediakan notifikasi otomatis sesuai jadwal yang telah ditentukan, sehingga dapat mencegah kelupaan dalam minum obat yang sering terjadi, terutama pada pengguna yang memiliki jadwal konsumsi obat yang kompleks.
+**MedRemind** is a mobile application designed to help users remember their medication schedules more regularly and on time. The app provides automatic notifications according to the set schedule, preventing missed doses, especially for users with complex medication regimens.
 
-### 🎯 Masalah yang Diselesaikan
+### 🎯 Problems Addressed
 
-✅ **Kelupaan Minum Obat**: Notifikasi otomatis mencegah terlewatnya jadwal
-✅ **Manajemen Stok**: Monitoring persediaan obat dan pengingat refill
-✅ **Jadwal Kompleks**: Pengaturan dosis yang fleksibel dan mudah
-✅ **Kepatuhan Pengobatan**: Tracking konsumsi untuk meningkatkan adherence
+✅ **Forgetfulness**: Automatic notifications prevent missed medication
+✅ **Stock Management**: Monitor medicine supplies and refill reminders
+✅ **Complex Schedules**: Flexible and easy dose scheduling
+✅ **Treatment Adherence**: Track medication intake to improve adherence
 
 ---
 
-## 👥 Target Pengguna
+## 👥 Target Users
 
 ### 🎯 Primary Users
 
-**👴 Lansia**
-- Memerlukan pengingat untuk rutinitas pengobatan
-- Interface sederhana dan mudah digunakan
+**👴 Elderly**
+- Need reminders for medication routines
+- Simple and easy-to-use interface
 
-**🏥 Penderita Penyakit Kronis**
-- Jadwal pengobatan rutin yang kompleks
+**🏥 Chronic Disease Patients**
+- Complex, routine medication schedules
 - Multiple medications management
 
-**🩹 Pasien Post-Operasi**
-- Kepatuhan terhadap rejimen pengobatan
+**🩹 Post-Operative Patients**
+- Adherence to medication regimens
 - Temporary medication schedules
 
 ### 🤝 Secondary Users
 
-**👨‍👩‍👧‍👦 Pengasuh & Keluarga**
-- Membantu mengelola pengobatan orang lain
+**👨‍👩‍👧‍👦 Caregivers & Families**
+- Help manage medications for others
 - Remote monitoring capabilities
 
-**👤 Pengguna Umum**
-- Mengatur pengobatan lebih terorganisir
+**👤 General Users**
+- Organize medication more efficiently
 - Preventive health management
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Main Features
 
-### 💊 **Input Data Obat**
-- Menambahkan obat baru dengan informasi lengkap
-- Menyimpan nama obat, deskripsi, dan instruksi penggunaan
-- Database obat yang terstruktur
+### 💊 **Medicine Data Input**
+- Add new medicines with complete information
+- Store medicine name, description, and usage instructions
+- Structured medicine database
 
-### ⚖️ **Atur Dosis, Stok & Refill**
-- Pengaturan jadwal dosis (harian, mingguan, kustom)
-- Monitoring stok obat yang tersisa
-- Pengingat otomatis untuk refill ketika stok menipis
+### ⚖️ **Dose, Stock & Refill Management**
+- Dose schedule settings (daily, weekly, custom)
+- Monitor remaining medicine stock
+- Automatic refill reminders when stock is low
 - Flexible dosage configurations
 
-### 🔔 **Pengingat Otomatis**
-- Notifikasi tepat waktu untuk jadwal minum obat
-- Konfirmasi "Sudah Minum" untuk tracking
+### 🔔 **Automatic Reminders**
+- Timely notifications for medication schedules
+- "Taken" confirmation for tracking
 - Smart notification system
 - Customizable reminder sounds
 
-### ⚙️ **Fitur Tambahan**
-- Menghapus atau reset data obat
-- Manajemen profil pengguna
-- Mode gelap dan light theme
-- Backup dan restore data
+### ⚙️ **Additional Features**
+- Delete or reset medicine data
+- User profile management
+- Dark and light mode
+- Backup and restore data
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
 ### 📱 **Platform & Language**
 - **Platform**: Android 6.0+ (API 23+)
@@ -109,47 +109,47 @@ tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, No
 
 ---
 
-## 🚀 Cara Menginstal dan Menjalankan
+## 🚀 Installation & Getting Started
 
-### 📋 **Persyaratan Sistem**
-- **OS**: Android 6.0 (Marshmallow) atau lebih tinggi
-- **Storage**: Minimal 100MB ruang penyimpanan bebas
+### 📋 **System Requirements**
+- **OS**: Android 6.0 (Marshmallow) or higher
+- **Storage**: At least 100MB free space
 - **Permissions**: Notification access, Storage access
-- **Internet**: Optional (untuk fitur tertentu)
+- **Internet**: Optional (for certain features)
 
-### ⚡ **Langkah Instalasi**
+### ⚡ **Installation Steps**
 
 **1. Download APK**
 ```bash
 # Clone repository
 git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 
-# Atau download langsung
-# Kunjungi: https://github.com/Ervin1809/Project-Mobile-MedRemind/releases
+# Or download directly
+# Visit: https://github.com/Ervin1809/Project-Mobile-MedRemind/releases
 ```
 
-**2. Instalasi**
+**2. Installation**
 ```
-📱 Buka file APK yang telah diunduh
-🔐 Izinkan instalasi dari sumber tidak dikenal
-📲 Ikuti petunjuk instalasi di layar
-✅ Tunggu hingga instalasi selesai
-```
-
-**3. Konfigurasi Awal**
-```
-🚀 Buka aplikasi MedRemind
-👤 Buat akun atau masuk sebagai tamu
-🔔 Berikan izin notifikasi ketika diminta
-⚙️ Selesaikan pengaturan profil awal
+📱 Open the downloaded APK file
+🔐 Allow installation from unknown sources
+📲 Follow on-screen installation prompts
+✅ Wait until installation completes
 ```
 
-**4. Menambahkan Obat Pertama**
+**3. Initial Setup**
 ```
-➕ Pilih navigation "addObat"
-📝 Isi informasi obat yang diperlukan
-⏰ Atur jadwal pengingat
-💾 Simpan dan aktifkan pengingat
+🚀 Open the MedRemind app
+👤 Create an account or login as guest
+🔔 Grant notification permissions when prompted
+⚙️ Complete initial profile setup
+```
+
+**4. Adding Your First Medicine**
+```
+➕ Select "addObat" from navigation
+📝 Fill in the required medicine information
+⏰ Set reminder schedules
+💾 Save and activate reminders
 ```
 
 ---
@@ -238,7 +238,7 @@ cd Project-Mobile-MedRemind
 - [x] Stock Monitoring & Refill Alerts
 - [x] User Profile Management
 - [x] Dark/Light Theme Support
-- [x] Medicine Taking Confirmation
+- [x] Medicine Intake Confirmation
 - [x] SQLite Local Storage
 
 ### 🚧 **Future Enhancements**
@@ -263,7 +263,7 @@ cd Project-Mobile-MedRemind
 
 ---
 
-## 👨‍💻 Tim Pengembang
+## 👨‍💻 Development Team
 
 ### 🎯 **Development Team**
 
@@ -291,7 +291,7 @@ cd Project-Mobile-MedRemind
 
 ---
 
-## 📄 Lisensi
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ervin1809/Project-Mobile-MedRemind/blob/main/LICENSE) file for details.
 

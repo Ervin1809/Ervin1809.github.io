@@ -1,13 +1,13 @@
 ---
 layout: default
-title: MathRent - Sistem Peminjaman Barang Departemen Matematika
-description: Web application untuk memfasilitasi peminjaman barang di Departemen Matematika Universitas Hasanuddin
+title: MathRent - Department of Mathematics Equipment Rental System
+description: Web application to facilitate equipment rental at the Department of Mathematics, Hasanuddin University
 date: 2025-06-26
 categories: Project
 tags: [React, JSX, TailwindCSS, FastAPI, Python, JavaScript, Web-Application, University-System, Rental-Management, Full-Stack]
 ---
 
-# MathRent - Sistem Peminjaman Barang 📚🔧
+# MathRent - Department of Mathematics Equipment Rental System 📚🔧
 
 ![React](https://img.shields.io/badge/Frontend-React_JSX-blue.svg)
 ![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC.svg)
@@ -15,98 +15,94 @@ tags: [React, JSX, TailwindCSS, FastAPI, Python, JavaScript, Web-Application, Un
 ![Python](https://img.shields.io/badge/Language-Python-yellow.svg)
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E.svg)
 
-<!-- **[🌐 Live Demo](https://mathrent-demo.vercel.app)** •
-**[📖 API Documentation](https://github.com/Ervin1809/MathRent/wiki/API-Docs)** • -->
-<!-- **[🐛 Report Issues](https://github.com/Ervin1809/Project-Web-MathRent-2025)** -->
-
 ---
 
 ## 🎯 Overview
 
-**MathRent** adalah sistem peminjaman barang berbasis web yang dirancang khusus untuk **Departemen Matematika Universitas Hasanuddin**. Aplikasi ini menggantikan sistem manual yang mengharuskan mahasiswa menitipkan KTM (Kartu Tanda Mahasiswa) saat meminjam barang seperti absen, proyektor, dan ruangan kelas.
+**MathRent** is a web-based equipment rental system specifically designed for the **Department of Mathematics, Hasanuddin University**. This application replaces the manual system that required students to submit their student ID cards (KTM) when borrowing items such as attendance books, projectors, and classroom keys.
 
-### 🏛️ Universitas Hasanuddin - Departemen Matematika
+### 🏛️ Hasanuddin University - Department of Mathematics
 
-Sistem ini dikembangkan untuk mengatasi keterbatasan sistem peminjaman konvensional di lingkungan akademik yang membutuhkan:
-- **Digitalisasi** proses peminjaman
-- **Keamanan data** peminjam tanpa perlu KTM fisik
-- **Efisiensi** dalam manajemen inventaris
-- **Transparansi** riwayat peminjaman
+This system was developed to address the limitations of conventional borrowing systems in academic environments that require:
+- **Digitalization** of the rental process
+- **Data security** without the need for physical ID cards
+- **Efficiency** in inventory management
+- **Transparency** in rental history
 
 ### 💡 Problem Solution
 
-**❌ Masalah Sebelumnya:**
-- Mahasiswa harus menitipkan KTM fisik
-- Risiko kehilangan atau kerusakan KTM
-- Proses manual yang memakan waktu
-- Sulit tracking riwayat peminjaman
+**❌ Previous Problems:**
+- Students had to hand over their physical ID cards
+- Risk of losing or damaging the ID card
+- Time-consuming manual process
+- Difficult to track rental history
 
-**✅ Solusi MathRent:**
-- Sistem digital tanpa perlu KTM fisik
-- Data peminjam tersimpan aman di database
-- Proses peminjaman yang cepat dan mudah
-- Tracking real-time dan riwayat lengkap
-
----
-
-## 👥 Target Pengguna
-
-### 🎓 **Mahasiswa Departemen Matematika**
-
-**Eligibility Requirements** (Validasi NIM dengan Regex):
-
-| Program Studi | Format NIM | Keterangan |
-|---------------|------------|------------|
-| **Matematika S1** | `H011xxxxxxx` | Sarjana Matematika |
-| **Aktuaria S1** | `H081xxxxxxx` | Sarjana Aktuaria |
-| **Matematika S2** | `H012xxxxxxx` | Magister Matematika |
-| **Matematika S3** | `H013xxxxxxx` | Doktor Matematika |
-| **Sistem Informasi S1** | `H071xxxxxxx` | Sarjana Sistem Informasi |
-
-### 👨‍💼 **Staff Departemen**
-- Staff akademik departemen matematika
-- Penanggung jawab inventaris
-- Admin sistem peminjaman
+**✅ MathRent Solution:**
+- Digital system without the need for physical ID cards
+- Borrower data securely stored in the database
+- Fast and easy rental process
+- Real-time tracking and complete history
 
 ---
 
-## ✨ Fitur Utama
+## 👥 Target Users
 
-### 🎓 **Fitur Mahasiswa**
+### 🎓 **Mathematics Department Students**
+
+**Eligibility Requirements** (NIM validation with Regex):
+
+| Study Program         | NIM Format     | Description                 |
+|----------------------|---------------|-----------------------------|
+| **Mathematics BSc**  | `H011xxxxxxx` | Undergraduate Mathematics   |
+| **Actuarial Science**| `H081xxxxxxx` | Undergraduate Actuarial Sci.|
+| **Mathematics MSc**  | `H012xxxxxxx` | Master of Mathematics       |
+| **Mathematics PhD**  | `H013xxxxxxx` | Doctoral Mathematics        |
+| **Information Systems** | `H071xxxxxxx` | Undergraduate Information Systems |
+
+### 👨‍💼 **Department Staff**
+- Academic staff of the mathematics department
+- Inventory managers
+- Rental system admins
+
+---
+
+## ✨ Main Features
+
+### 🎓 **Student Features**
 
 #### 🔐 **Authentication System**
-- **Registration**: Validasi NIM sesuai program studi
-- **Login**: Secure authentication dengan session management
-- **Profile Management**: Data personal mahasiswa
+- **Registration**: NIM validation according to study program
+- **Login**: Secure authentication with session management
+- **Profile Management**: Student personal data
 
 #### 📦 **Inventory Management**
-- **Browse Items**: Melihat daftar barang tersedia/tidak tersedia
-- **Item Details**: Informasi lengkap barang dan spesifikasi
-- **Rental Request**: Mengajukan peminjaman barang
-- **Real-time Status**: Status ketersediaan barang live
+- **Browse Items**: View list of available/unavailable items
+- **Item Details**: Complete information and specifications
+- **Rental Request**: Submit rental requests
+- **Real-time Status**: Live availability status
 
 #### 📋 **Rental History**
-- **Personal History**: Riwayat peminjaman pribadi
+- **Personal History**: Individual rental history
 - **Status Tracking**: Pending, Approved, Returned
-- **Rental Details**: Detail setiap transaksi peminjaman
+- **Rental Details**: Transaction details
 
-### 👨‍💼 **Fitur Staff**
+### 👨‍💼 **Staff Features**
 
 #### 🔧 **Item Management (CRUD)**
-- **Create**: Tambah barang baru ke inventaris
-- **Read**: Lihat daftar semua barang dan detail
-- **Update**: Edit informasi barang
-- **Delete**: Hapus barang dari sistem
+- **Create**: Add new items to inventory
+- **Read**: View all items and details
+- **Update**: Edit item information
+- **Delete**: Remove items from the system
 
 #### 👥 **User Management**
-- **Student List**: Daftar mahasiswa peminjam
-- **Rental Requests**: Kelola ajuan peminjaman
-- **Borrower Tracking**: Monitor peminjam aktif
+- **Student List**: List of borrowing students
+- **Rental Requests**: Manage rental submissions
+- **Borrower Tracking**: Monitor active borrowers
 
 #### ✅ **Approval System**
-- **Request Approval**: Setujui/tolak ajuan peminjaman
-- **Return Confirmation**: Konfirmasi pengembalian barang
-- **Status Management**: Update status peminjaman
+- **Request Approval**: Approve/reject rental requests
+- **Return Confirmation**: Confirm item returns
+- **Status Management**: Update rental status
 
 ---
 
@@ -132,17 +128,12 @@ Sistem ini dikembangkan untuk mengatasi keterbatasan sistem peminjaman konvensio
 - **Package Manager**: npm/yarn (Frontend), pip (Backend)
 - **API Testing**: Postman
 
-<!-- ### 🚀 **Deployment**
-- **Frontend**: Vercel/Netlify
-- **Backend**: Railway/Heroku
-- **Database**: PostgreSQL (Production) -->
-
 ---
 
 ## 🚀 Installation & Setup
 
 ### 📋 **Prerequisites**
-- Node.js 16+ dan npm/yarn
+- Node.js 16+ and npm/yarn
 - Python 3.8+
 - Git
 - VS Code (Recommended)
@@ -340,11 +331,11 @@ MathRent/
 ```python
 # NIM Validation Regex Patterns
 NIM_PATTERNS = {
-    "H011": "Matematika S1",
-    "H081": "Aktuaria S1",
-    "H012": "Matematika S2",
-    "H013": "Matematika S3",
-    "H071": "Sistem Informasi S1"
+    "H011": "Mathematics BSc",
+    "H081": "Actuarial Science",
+    "H012": "Mathematics MSc",
+    "H013": "Mathematics PhD",
+    "H071": "Information Systems"
 }
 
 def validate_nim(nim: str) -> bool:
@@ -520,8 +511,8 @@ def create_access_token(data: dict):
 </div>
 
 ### 🏛️ **Institution**
-- **University**: Universitas Hasanuddin
-- **Department**: Departemen Matematika
+- **University**: Hasanuddin University
+- **Department**: Department of Mathematics
 - **Location**: Makassar, South Sulawesi, Indonesia
 - **Academic Year**: 2024/2025
 
@@ -531,17 +522,12 @@ def create_access_token(data: dict):
 - **Communication**: Discord & WhatsApp
 - **Development**: Collaborative coding with Git branching
 
-### 🏛️ **Institution**
-- **University**: Universitas Hasanuddin
-- **Department**: Matematika
-- **Location**: Makassar, South Sulawesi, Indonesia
-
 ---
 
 ## 📞 Support & Contact
 
 ### 🎓 **Academic Support**
-- **Department**: Departemen Matematika UNHAS
+- **Department**: Department of Mathematics, Hasanuddin University
 - **Email**: math@unhas.ac.id
 - **Website**: [https://math.unhas.ac.id](https://math.unhas.ac.id)
 
@@ -565,9 +551,9 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## 🙏 Acknowledgments
 
 ### 🏛️ **Special Thanks**
-- **Universitas Hasanuddin** - For providing the academic environment
-- **Departemen Matematika** - For the opportunity to solve real problems
-- **Staff Departemen** - For feedback and requirements gathering
+- **Hasanuddin University** - For providing the academic environment
+- **Department of Mathematics** - For the opportunity to solve real problems
+- **Department Staff** - For feedback and requirements gathering
 - **Fellow Students** - For testing and suggestions
 
 ### 📚 **Technologies Used**
@@ -579,7 +565,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ---
 
-**Made with ❤️ for Universitas Hasanuddin - Departemen Matematika**
+**Made with ❤️ for Hasanuddin University - Department of Mathematics**
 
 *Digitizing academic processes, one system at a time*
 
