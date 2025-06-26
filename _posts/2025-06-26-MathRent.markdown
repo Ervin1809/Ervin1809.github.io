@@ -429,19 +429,16 @@ def create_access_token(data: dict):
 <table style="border-spacing: 25px; border-collapse: separate;">
 <tr>
 <td align="center">
-<img src="https://github.com/Ervin1809.png" width="100" style="border-radius: 50%;"><br>
 <b>M. Ervin</b><br>
 <i>Backend Developer</i><br>
 <a href="https://github.com/Ervin1809">@Ervin1809</a>
 </td>
 <td align="center">
-<img src="https://github.com/zaynabzhaa10.png" width="100" style="border-radius: 50%;"><br>
 <b>Zaenab Muchsinin</b><br>
 <i>Frontend Developer</i><br>
 <a href="https://github.com/zaynabzhaa10">@zaynabzhaa10</a>
 </td>
 <td align="center">
-<img src="https://github.com/AthifahNurRahmanMD.png" width="100" style="border-radius: 50%;"><br>
 <b>Athifah Nur Rahman</b><br>
 <i>Frontend Developer</i><br>
 <a href="https://github.com/AthifahNurRahmanMD">@AthifahNurRahmanMD</a>
