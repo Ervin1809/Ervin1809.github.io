@@ -192,13 +192,20 @@ API Docs: http://localhost:8000/docs
 <table style="border-spacing: 15px; border-collapse: separate;">
 <tr>
 <td align="center">
-<img src="/assets/img/mathrent-landing.png" alt="Landing Page" width="300" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<img src="/assets/img/landing.png" alt="Landing Page" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
 <b>Landing Page</b><br>
 <small>Welcome page with system overview</small>
 </td>
 <td align="center">
-<img src="/assets/img/mathrent-login.png" alt="Login Page" width="300" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<img src="/assets/img/logincopy.png" alt="Login Page" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
 <b>Login System</b><br>
+<small>Secure authentication for students & staff</small>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="/assets/img/regiscopy.png" alt="Login Page" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Register System</b><br>
 <small>Secure authentication for students & staff</small>
 </td>
 </tr>
@@ -213,17 +220,24 @@ API Docs: http://localhost:8000/docs
 <table style="border-spacing: 15px; border-collapse: separate;">
 <tr>
 <td align="center">
-<img src="/assets/img/mathrent-dashboard.png" alt="Student Dashboard" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<img src="/assets/img/homeMaha1.png" alt="Student Dashboard" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
 <b>Student Dashboard</b><br>
 <small>Overview of available items and status</small>
 </td>
 <td align="center">
-<img src="/assets/img/mathrent-items.png" alt="Items List" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
-<b>Items Catalog</b><br>
+<img src="/assets/img/homeDetail1.png" alt="Items List" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Items Details</b><br>
 <small>Browse available and unavailable items</small>
 </td>
+</tr>
+<tr>
 <td align="center">
-<img src="/assets/img/mathrent-detail.png" alt="Item Detail" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<img src="/assets/img/homeDetail2.png" alt="Item Detail" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Item Details</b><br>
+<small>Detailed view with rental request</small>
+</td>
+<td align="center">
+<img src="/assets/img/homeDetail4.png" alt="Item Detail" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
 <b>Item Details</b><br>
 <small>Detailed view with rental request</small>
 </td>
@@ -239,19 +253,21 @@ API Docs: http://localhost:8000/docs
 <table style="border-spacing: 15px; border-collapse: separate;">
 <tr>
 <td align="center">
-<img src="/assets/img/mathrent-staff-dashboard.png" alt="Staff Dashboard" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<img src="/assets/img/homeStaff.png" alt="Staff Dashboard" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
 <b>Staff Dashboard</b><br>
 <small>Comprehensive admin panel</small>
 </td>
 <td align="center">
-<img src="/assets/img/mathrent-crud.png" alt="Item Management" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<img src="/assets/img/tambahbarang.png" alt="Item Management" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
 <b>Item Management</b><br>
 <small>CRUD operations for inventory</small>
 </td>
+</tr>
+<tr>
 <td align="center">
-<img src="/assets/img/mathrent-approvals.png" alt="Rental Approvals" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
-<b>Rental Approvals</b><br>
-<small>Manage rental requests and returns</small>
+<img src="/assets/img/historyPinjam.png" alt="Rental Approvals" width="350" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Rental History</b><br>
+<small>Manage rental</small>
 </td>
 </tr>
 </table>
