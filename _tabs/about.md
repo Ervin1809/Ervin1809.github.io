@@ -1,13 +1,8 @@
 ---
-layout: post
-title: "M. ERVIN - Biodata"
-date: 2023-08-18
-author: M. Ervin
-categories: Biodata
-tags: [Programming, Java, Python, C++]
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
 ---
-
-# About Me
 
 Hello! I’m **M. Ervin**, a passionate programmer who started learning to code in **2023**.
 I love exploring new technologies, solving problems, and building projects that make an impact.
@@ -33,3 +28,7 @@ Here are some of my projects:
 - 🔗 **LinkedIn:** [linkedin.com/in/M Ervin](https://linkedin.com/in/m-ervin-819a93300)
 
 Thanks for visiting my blog! 🚀
+
+
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip }
