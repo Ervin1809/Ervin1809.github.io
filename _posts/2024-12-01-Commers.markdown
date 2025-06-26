@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "VinkerShop - E-Commerce Website"
+description : "This project is a Laravel based e-commerce platform designed to provide a fast, secure and convenient online shopping experience."
 date: 2024-12-01
 categories: Project
 tags: [Laravel, HTML, PHP]
