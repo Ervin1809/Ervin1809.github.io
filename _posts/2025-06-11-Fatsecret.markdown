@@ -106,6 +106,7 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 
 ### 🏗️ App Structure
 
+<pre>
 ```
   VinkerTrack Android App
   ├── 🔐 Authentication Layer
@@ -124,6 +125,7 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
       ├── Material Design UI
       └── Auto Dark Mode
 ```
+</pre>
 
 ### 📊 Database Schema
 
@@ -275,13 +277,13 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 
 ### 🧪 Testing
 
-````bash
+```bash
   # Unit tests
   ./gradlew test
 
   # Instrumented tests
   ./gradlew connectedAndroidTest
-````
+```
 
 ---
 
