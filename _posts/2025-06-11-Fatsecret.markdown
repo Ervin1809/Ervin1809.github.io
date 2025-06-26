@@ -78,27 +78,27 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 ### ⚡ Installation Steps
 
 **1. Download & Install**
-```
-📱 Download the APK from the Release page
-🔧 Enable "Install from Unknown Sources" if needed
-📲 Install the VinkerTrack app
-```
+
+- 📱 Download the APK from the Release page
+- 🔧 Enable "Install from Unknown Sources" if needed
+- 📲 Install the VinkerTrack app
+
 
 **2. First Time Setup**
-```
-👤 Register a new account or login
-📝 Complete your personal profile
-🎯 Set your weight goal and activity level
-✅ Start tracking daily nutrition!
-```
+
+- 👤 Register a new account or login
+- 📝 Complete your personal profile
+- 🎯 Set your weight goal and activity level
+- ✅ Start tracking daily nutrition!
+
 
 **3. Daily Usage**
-```
-🔍 Search foods from the USDA database
-⚖️ Input food weight in grams
-📊 Monitor daily nutrition progress
-📈 Review history and trends
-```
+
+- 🔍 Search foods from the USDA database
+- ⚖️ Input food weight in grams
+- 📊 Monitor daily nutrition progress
+- 📈 Review history and trends
+
 
 ---
 
@@ -107,22 +107,22 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 ### 🏗️ App Structure
 
 ```
-VinkerTrack Android App
-├── 🔐 Authentication Layer
-│   ├── User Registration & Login
-│   └── Session Management
-├── 💾 Data Layer
-│   ├── SQLite Database (5 tables)
-│   ├── USDA API Integration
-│   └── Data Repositories
-├── 🧮 Business Logic
-│   ├── Nutrition Calculator
-│   ├── BMR/TDEE Algorithms
-│   └── Macro Distribution
-└── 🎨 Presentation Layer
-    ├── MVVM Architecture
-    ├── Material Design UI
-    └── Auto Dark Mode
+  VinkerTrack Android App
+  ├── 🔐 Authentication Layer
+  │   ├── User Registration & Login
+  │   └── Session Management
+  ├── 💾 Data Layer
+  │   ├── SQLite Database (5 tables)
+  │   ├── USDA API Integration
+  │   └── Data Repositories
+  ├── 🧮 Business Logic
+  │   ├── Nutrition Calculator
+  │   ├── BMR/TDEE Algorithms
+  │   └── Macro Distribution
+  └── 🎨 Presentation Layer
+      ├── MVVM Architecture
+      ├── Material Design UI
+      └── Auto Dark Mode
 ```
 
 ### 📊 Database Schema
@@ -140,10 +140,10 @@ VinkerTrack Android App
 ### 🌐 USDA API Integration
 
 ```java
-// Real-time food search with USDA Food Data Central
-Search Query → USDA API → Nutrition Data → Local Cache
-// Accurate nutrition data for 300,000+ food items
-// Fast response using OkHttp & Retrofit2
+  // Real-time food search with USDA Food Data Central
+  Search Query → USDA API → Nutrition Data → Local Cache
+  // Accurate nutrition data for 300,000+ food items
+  // Fast response using OkHttp & Retrofit2
 ```
 
 ### 🧮 Nutrition Calculation Engine
@@ -256,32 +256,32 @@ Search Query → USDA API → Nutrition Data → Local Cache
 ### 🔧 Development Setup
 
 ```bash
-# Clone repository
-git clone https://github.com/Ervin1809/Project-Fatsecret-AndrodiStudio-2025.git
-cd Project-Fatsecret-AndrodiStudio-2025
+  # Clone repository
+  git clone https://github.com/Ervin1809/Project-Fatsecret-AndrodiStudio-2025.git
+  cd Project-Fatsecret-AndrodiStudio-2025
 
-# Open with Android Studio
-# File → Open → Select project folder
-# Wait for Gradle sync to complete
+  # Open with Android Studio
+  # File → Open → Select project folder
+  # Wait for Gradle sync to complete
 
-# Configure USDA API Key
-# Edit: app/src/main/java/com/example/fatsecret/data/network/ApiConfig.java
-# Replace YOUR_API_KEY with your USDA API key
+  # Configure USDA API Key
+  # Edit: app/src/main/java/com/example/fatsecret/data/network/ApiConfig.java
+  # Replace YOUR_API_KEY with your USDA API key
 
-# Build & Run
-./gradlew assembleDebug
-./gradlew installDebug
+  # Build & Run
+  ./gradlew assembleDebug
+  ./gradlew installDebug
 ```
 
 ### 🧪 Testing
 
-```bash
-# Unit tests
-./gradlew test
+````bash
+  # Unit tests
+  ./gradlew test
 
-# Instrumented tests
-./gradlew connectedAndroidTest
-```
+  # Instrumented tests
+  ./gradlew connectedAndroidTest
+````
 
 ---
 
