@@ -120,37 +120,37 @@ tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, No
 ### ⚡ **Installation Steps**
 
 **1. Download APK**
-```bash
+<pre>
 # Clone repository
 git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 
 # Or download directly
 # Visit: https://github.com/Ervin1809/Project-Mobile-MedRemind/releases
-```
+</pre>
 
 **2. Installation**
-```
+<pre>
 📱 Open the downloaded APK file
 🔐 Allow installation from unknown sources
 📲 Follow on-screen installation prompts
 ✅ Wait until installation completes
-```
+</pre>
 
 **3. Initial Setup**
-```
+<pre>
 🚀 Open the MedRemind app
 👤 Create an account or login as guest
 🔔 Grant notification permissions when prompted
 ⚙️ Complete initial profile setup
-```
+</pre>
 
 **4. Adding Your First Medicine**
-```
+<pre>
 ➕ Select "addObat" from navigation
 📝 Fill in the required medicine information
 ⏰ Set reminder schedules
 💾 Save and activate reminders
-```
+</pre>
 
 ---
 
@@ -213,7 +213,7 @@ Personal information and app preferences
 
 ### 🔧 **Development Setup**
 
-```bash
+<pre>
 # Clone repository
 git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 cd Project-Mobile-MedRemind
@@ -225,7 +225,7 @@ cd Project-Mobile-MedRemind
 # Build & Run
 ./gradlew assembleDebug
 ./gradlew installDebug
-```
+</pre>
 
 ---
 

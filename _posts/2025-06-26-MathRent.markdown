@@ -141,13 +141,13 @@ This system was developed to address the limitations of conventional borrowing s
 ### ⚡ **Quick Start**
 
 **1. Clone Repository**
-```bash
+<pre>
 git clone https://github.com/Ervin1809/Project-Web-MathRent-2025.git
 cd Project-Web-MathRent-2025
-```
+</pre>
 
 **2. Backend Setup (FastAPI)**
-```bash
+<pre>
 # Navigate to backend directory
 cd FastAPI
 
@@ -156,10 +156,10 @@ pip install -r requirements.txt
 
 # Run FastAPI server
 uvicorn main:app --reload --port 8000
-```
+</pre>
 
 **3. Frontend Setup (React)**
-```bash
+<pre>
 # Navigate to frontend directory (new terminal)
 cd DashboardDesign
 
@@ -172,14 +172,14 @@ yarn install
 npm run dev
 # or
 yarn dev
-```
+</pre>
 
 **4. Access Application**
-```
+<pre>
 Frontend: http://localhost:3000
 Backend API: http://localhost:8000
 API Docs: http://localhost:8000/docs
-```
+</pre>
 
 ---
 
@@ -264,7 +264,7 @@ API Docs: http://localhost:8000/docs
 
 ### 🏗️ **Directory Structure**
 
-```
+<pre>
 MathRent/
 ├── DashboardDesign/                 # React Frontend
 │   ├── src/
@@ -298,7 +298,7 @@ MathRent/
 ├── docs/                     # Documentation
 ├── README.md                 # Project documentation
 └── .gitignore               # Git ignore rules
-```
+</pre>
 
 ### 🔧 **API Endpoints**
 
@@ -328,7 +328,7 @@ MathRent/
 
 ### 🎓 **Student Registration Validation**
 
-```python
+<pre>
 # NIM Validation Regex Patterns
 NIM_PATTERNS = {
     "H011": "Mathematics BSc",
@@ -341,11 +341,11 @@ NIM_PATTERNS = {
 def validate_nim(nim: str) -> bool:
     pattern = r'^(H011|H081|H012|H013|H071)\d{6}$'
     return re.match(pattern, nim) is not None
-```
+</pre>
 
 ### 🔒 **JWT Token Authentication**
 
-```python
+<pre>
 # JWT Token Configuration
 SECRET_KEY = "your-secret-key"
 ALGORITHM = "HS256"
@@ -357,7 +357,7 @@ def create_access_token(data: dict):
     to_encode.update({"exp": expire})
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
-```
+</pre>
 
 ---
 

@@ -1,22 +1,73 @@
 ---
 layout: post
 title: "VinkerShop - E-Commerce Website"
-description : "This project is a Laravel based e-commerce platform designed to provide a fast, secure and convenient online shopping experience."
+description: "This project is a Laravel based e-commerce platform designed to provide a fast, secure and convenient online shopping experience."
 date: 2024-12-01
 categories: Project
 tags: [Laravel, HTML, PHP]
 ---
 
-# Create an E-Commerce Website
+# VinkerShop - E-Commerce Website
 
-This project is a **Laravel** based e-commerce platform designed to provide a fast, secure and convenient online shopping experience. With modern features such as **product management, purchasing system, order tracking, and admin dashboard**, this platform is suitable for businesses that want to expand their digital reach.
+This project is a **Laravel** based e-commerce platform designed to provide a fast, secure, and convenient online shopping experience. With modern features such as **product management, purchasing system, order tracking, and admin dashboard**, this platform is suitable for businesses looking to expand their digital reach.
 
-## Technology Used
+---
+
+## 🏷️ Main Features & User Roles
+
+VinkerShop supports three main user roles: **Admin, Seller, and Buyer**. Each role has access to unique features tailored for their needs.
+
+### 👤 Buyer Features
+- **Order Tracking:** Easily view and track your order status (e.g., waiting, shipped, delivered, cancelled).
+- **Favorites:** Add products to your favorites list for quick access later.
+- **Product Browsing:** Search, browse, and filter products by category, price, or popularity.
+- **Order Management:** Place orders, view order history, and reorder previous purchases.
+- **Profile Management:** Edit personal and shipping information.
+- **Secure Checkout:** Multiple payment options and secure transaction handling.
+- **Product Reviews:** Leave ratings and reviews on purchased products.
+
+### 🛒 Seller Features
+- **Product Management:** Full CRUD (Create, Read, Update, Delete) for products in their store.
+- **Order Processing:** View incoming orders, update order status (e.g., mark as shipped, cancel orders).
+- **Sales Analytics:** View sales statistics and revenue for their products.
+- **Store Profile:** Manage store information and branding.
+- **Inventory Management:** Track stock levels and update inventory in real time.
+- **Promotion Tools:** Create discounts or special offers (if implemented).
+
+### 🛡️ Admin Features
+- **User Management:** View a list of all registered users (buyers and sellers).
+- **Product Moderation:** Remove seller products that violate marketplace rules.
+- **Revenue Analytics:** View and rank stores by highest revenue.
+- **System Monitoring:** Oversee overall platform activity and health.
+- **Admin Dashboard:** Access to all system-wide settings and controls.
+
+---
+
+## 🛠️ Technology Used
+
 - **Laravel** – PHP framework for fast and efficient web development
 - **PHP** – Backend programming language
 - **MySQL** – Relational database for storing product and transaction data
 - **Bootstrap** – CSS library for responsive displays (optional, if used)
+- **JavaScript/jQuery** – For interactive frontend components
 
-## The final result
-🔗 [View Demo](https://yourprojectdemo.com)
-🔗 [Source Code](https://github.com/Ervin1809/VinkerShop)
+---
+
+## 🚩 The Final Result
+
+- 🔗 [View Demo](https://yourprojectdemo.com)
+- 🔗 [Source Code](https://github.com/Ervin1809/VinkerShop)
+
+---
+
+## 📸 Screenshots (Coming Soon!)
+
+---
+
+## 💡 Why VinkerShop?
+
+VinkerShop is designed for scalability, security, and ease of use, making it suitable for both new and growing businesses. The clear separation of roles ensures that each user type (admin, seller, buyer) has a dedicated experience optimized for their needs.
+
+---
+
+*Contact me for collaboration or feedback!*

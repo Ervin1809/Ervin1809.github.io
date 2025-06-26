@@ -107,7 +107,6 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 ### 🏗️ App Structure
 
 <pre>
-```
   VinkerTrack Android App
   ├── 🔐 Authentication Layer
   │   ├── User Registration & Login
@@ -124,7 +123,6 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
       ├── MVVM Architecture
       ├── Material Design UI
       └── Auto Dark Mode
-```
 </pre>
 
 ### 📊 Database Schema
@@ -141,12 +139,12 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 
 ### 🌐 USDA API Integration
 
-```java
+<pre>
   // Real-time food search with USDA Food Data Central
   Search Query → USDA API → Nutrition Data → Local Cache
   // Accurate nutrition data for 300,000+ food items
   // Fast response using OkHttp & Retrofit2
-```
+</pre>
 
 ### 🧮 Nutrition Calculation Engine
 
@@ -257,7 +255,7 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
 
 ### 🔧 Development Setup
 
-```bash
+<pre>
   # Clone repository
   git clone https://github.com/Ervin1809/Project-Fatsecret-AndrodiStudio-2025.git
   cd Project-Fatsecret-AndrodiStudio-2025
@@ -273,17 +271,17 @@ tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutriti
   # Build & Run
   ./gradlew assembleDebug
   ./gradlew installDebug
-```
+</pre>
 
 ### 🧪 Testing
 
-```bash
+<pre>
   # Unit tests
   ./gradlew test
 
   # Instrumented tests
   ./gradlew connectedAndroidTest
-```
+</pre>
 
 ---
 

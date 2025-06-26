@@ -47,7 +47,7 @@ This project develops a rental price prediction model for boarding houses in Mak
 - **Python 3.8+**
 
 ### Main Libraries
-```python
+<pre>
 # Data Manipulation & Analysis
 pandas
 numpy
@@ -65,11 +65,11 @@ selenium
 # Visualization
 matplotlib
 seaborn
-```
+</pre>
 
 ## 📁 Project Structure
 
-```
+<pre>
 kos-price-prediction/
 │
 ├── data/
@@ -102,7 +102,7 @@ kos-price-prediction/
 ├── requirements.txt            # Dependencies
 ├── README.md                   # Documentation
 └── LICENSE                     # License file
-```
+</pre>
 
 ## 📈 Methodology
 
