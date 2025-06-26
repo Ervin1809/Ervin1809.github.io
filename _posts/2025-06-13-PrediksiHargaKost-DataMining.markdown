@@ -10,7 +10,8 @@ tags: [Python, XGBoost Regressor, Scikit-Learn, Geopy, Matplotlib, Seaborn, Sele
 # Pengembangan Model Prediksi Harga Sewa Kos di Makassar Menggunakan Teknik Data Mining
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 
 ## 📋 Deskripsi Proyek
 
