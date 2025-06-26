@@ -34,6 +34,10 @@
   --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.6);
   --shadow-glow: 0 0 20px rgba(88, 166, 255, 0.2);
 }
+#sidebar {
+  --bg-primary: #0d1117;
+  background-color: var(--bg-primary) !important;
+}
 
 /* Base Styles */
 * {
@@ -49,6 +53,7 @@ body {
   background: var(--bg-primary);
   overflow-x: hidden;
 }
+
 
 /* ================================
    HERO SECTION
