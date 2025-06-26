@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create a Simple Inventory Website with HTML, CSS, and JavaScript"
+title: "Website Inventory - Using JavaScript, HTML, & CSS"
 date: 2024-10-06
 categories: Project
 tags: [HTML, CSS, JavaScript]

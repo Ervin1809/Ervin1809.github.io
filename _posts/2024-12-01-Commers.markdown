@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating an E-Commerce Website"
+title: "VinkerShop - E-Commerce Website"
 date: 2024-12-01
 categories: Project
 tags: [Laravel, HTML, PHP]

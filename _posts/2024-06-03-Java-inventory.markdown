@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Creating a Schedule Management Application with JavaFX"
+title: "Schedule Management - Using JavaFX"
+description : "Creating a Schedule Management Application with JavaFX"
 date: 2024-10-06
 categories: Project
 tags: [JavaFX, Java, Productivity]

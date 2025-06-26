@@ -1,0 +1,590 @@
+---
+layout: default
+title: MathRent - Sistem Peminjaman Barang Departemen Matematika
+description: Web application untuk memfasilitasi peminjaman barang di Departemen Matematika Universitas Hasanuddin
+date: 2025-06-26
+categories: Project
+tags: [React, JSX, TailwindCSS, FastAPI, Python, JavaScript, Web-Application, University-System, Rental-Management, Full-Stack]
+---
+
+# MathRent - Sistem Peminjaman Barang 📚🔧
+
+![React](https://img.shields.io/badge/Frontend-React_JSX-blue.svg)
+![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC.svg)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)
+![Python](https://img.shields.io/badge/Language-Python-yellow.svg)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E.svg)
+
+<!-- **[🌐 Live Demo](https://mathrent-demo.vercel.app)** •
+**[📖 API Documentation](https://github.com/Ervin1809/MathRent/wiki/API-Docs)** • -->
+<!-- **[🐛 Report Issues](https://github.com/Ervin1809/Project-Web-MathRent-2025)** -->
+
+---
+
+## 🎯 Overview
+
+**MathRent** adalah sistem peminjaman barang berbasis web yang dirancang khusus untuk **Departemen Matematika Universitas Hasanuddin**. Aplikasi ini menggantikan sistem manual yang mengharuskan mahasiswa menitipkan KTM (Kartu Tanda Mahasiswa) saat meminjam barang seperti absen, proyektor, dan ruangan kelas.
+
+### 🏛️ Universitas Hasanuddin - Departemen Matematika
+
+Sistem ini dikembangkan untuk mengatasi keterbatasan sistem peminjaman konvensional di lingkungan akademik yang membutuhkan:
+- **Digitalisasi** proses peminjaman
+- **Keamanan data** peminjam tanpa perlu KTM fisik
+- **Efisiensi** dalam manajemen inventaris
+- **Transparansi** riwayat peminjaman
+
+### 💡 Problem Solution
+
+**❌ Masalah Sebelumnya:**
+- Mahasiswa harus menitipkan KTM fisik
+- Risiko kehilangan atau kerusakan KTM
+- Proses manual yang memakan waktu
+- Sulit tracking riwayat peminjaman
+
+**✅ Solusi MathRent:**
+- Sistem digital tanpa perlu KTM fisik
+- Data peminjam tersimpan aman di database
+- Proses peminjaman yang cepat dan mudah
+- Tracking real-time dan riwayat lengkap
+
+---
+
+## 👥 Target Pengguna
+
+### 🎓 **Mahasiswa Departemen Matematika**
+
+**Eligibility Requirements** (Validasi NIM dengan Regex):
+
+| Program Studi | Format NIM | Keterangan |
+|---------------|------------|------------|
+| **Matematika S1** | `H011xxxxxxx` | Sarjana Matematika |
+| **Aktuaria S1** | `H081xxxxxxx` | Sarjana Aktuaria |
+| **Matematika S2** | `H012xxxxxxx` | Magister Matematika |
+| **Matematika S3** | `H013xxxxxxx` | Doktor Matematika |
+| **Sistem Informasi S1** | `H071xxxxxxx` | Sarjana Sistem Informasi |
+
+### 👨‍💼 **Staff Departemen**
+- Staff akademik departemen matematika
+- Penanggung jawab inventaris
+- Admin sistem peminjaman
+
+---
+
+## ✨ Fitur Utama
+
+### 🎓 **Fitur Mahasiswa**
+
+#### 🔐 **Authentication System**
+- **Registration**: Validasi NIM sesuai program studi
+- **Login**: Secure authentication dengan session management
+- **Profile Management**: Data personal mahasiswa
+
+#### 📦 **Inventory Management**
+- **Browse Items**: Melihat daftar barang tersedia/tidak tersedia
+- **Item Details**: Informasi lengkap barang dan spesifikasi
+- **Rental Request**: Mengajukan peminjaman barang
+- **Real-time Status**: Status ketersediaan barang live
+
+#### 📋 **Rental History**
+- **Personal History**: Riwayat peminjaman pribadi
+- **Status Tracking**: Pending, Approved, Returned
+- **Rental Details**: Detail setiap transaksi peminjaman
+
+### 👨‍💼 **Fitur Staff**
+
+#### 🔧 **Item Management (CRUD)**
+- **Create**: Tambah barang baru ke inventaris
+- **Read**: Lihat daftar semua barang dan detail
+- **Update**: Edit informasi barang
+- **Delete**: Hapus barang dari sistem
+
+#### 👥 **User Management**
+- **Student List**: Daftar mahasiswa peminjam
+- **Rental Requests**: Kelola ajuan peminjaman
+- **Borrower Tracking**: Monitor peminjam aktif
+
+#### ✅ **Approval System**
+- **Request Approval**: Setujui/tolak ajuan peminjaman
+- **Return Confirmation**: Konfirmasi pengembalian barang
+- **Status Management**: Update status peminjaman
+
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 **Frontend**
+- **Framework**: React.js with JSX
+- **Styling**: TailwindCSS
+- **State Management**: React Hooks
+- **HTTP Client**: Axios/Fetch API
+- **Routing**: React Router DOM
+
+### ⚡ **Backend**
+- **Framework**: FastAPI (Python)
+- **Database**: SQLite/PostgreSQL
+- **Authentication**: JWT Token
+- **API Documentation**: Swagger/OpenAPI
+- **CORS**: FastAPI CORS middleware
+
+### 💻 **Development Tools**
+- **IDE**: Visual Studio Code
+- **Version Control**: Git & GitHub
+- **Package Manager**: npm/yarn (Frontend), pip (Backend)
+- **API Testing**: Postman
+
+<!-- ### 🚀 **Deployment**
+- **Frontend**: Vercel/Netlify
+- **Backend**: Railway/Heroku
+- **Database**: PostgreSQL (Production) -->
+
+---
+
+## 🚀 Installation & Setup
+
+### 📋 **Prerequisites**
+- Node.js 16+ dan npm/yarn
+- Python 3.8+
+- Git
+- VS Code (Recommended)
+
+### ⚡ **Quick Start**
+
+**1. Clone Repository**
+```bash
+git clone https://github.com/Ervin1809/Project-Web-MathRent-2025.git
+cd Project-Web-MathRent-2025
+```
+
+**2. Backend Setup (FastAPI)**
+```bash
+# Navigate to backend directory
+cd FastAPI
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run FastAPI server
+uvicorn main:app --reload --port 8000
+```
+
+**3. Frontend Setup (React)**
+```bash
+# Navigate to frontend directory (new terminal)
+cd DashboardDesign
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start development server
+npm run dev
+# or
+yarn dev
+```
+
+**4. Access Application**
+```
+Frontend: http://localhost:3000
+Backend API: http://localhost:8000
+API Docs: http://localhost:8000/docs
+```
+
+---
+
+## 📱 Screenshots & Demo
+
+### 🏠 Landing & Authentication
+
+<div align="center">
+
+<table style="border-spacing: 15px; border-collapse: separate;">
+<tr>
+<td align="center">
+<img src="/assets/img/mathrent-landing.png" alt="Landing Page" width="300" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Landing Page</b><br>
+<small>Welcome page with system overview</small>
+</td>
+<td align="center">
+<img src="/assets/img/mathrent-login.png" alt="Login Page" width="300" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Login System</b><br>
+<small>Secure authentication for students & staff</small>
+</td>
+</tr>
+</table>
+
+</div>
+
+### 🎓 Student Interface
+
+<div align="center">
+
+<table style="border-spacing: 15px; border-collapse: separate;">
+<tr>
+<td align="center">
+<img src="/assets/img/mathrent-dashboard.png" alt="Student Dashboard" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Student Dashboard</b><br>
+<small>Overview of available items and status</small>
+</td>
+<td align="center">
+<img src="/assets/img/mathrent-items.png" alt="Items List" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Items Catalog</b><br>
+<small>Browse available and unavailable items</small>
+</td>
+<td align="center">
+<img src="/assets/img/mathrent-detail.png" alt="Item Detail" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Item Details</b><br>
+<small>Detailed view with rental request</small>
+</td>
+</tr>
+</table>
+
+</div>
+
+### 👨‍💼 Staff Interface
+
+<div align="center">
+
+<table style="border-spacing: 15px; border-collapse: separate;">
+<tr>
+<td align="center">
+<img src="/assets/img/mathrent-staff-dashboard.png" alt="Staff Dashboard" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Staff Dashboard</b><br>
+<small>Comprehensive admin panel</small>
+</td>
+<td align="center">
+<img src="/assets/img/mathrent-crud.png" alt="Item Management" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Item Management</b><br>
+<small>CRUD operations for inventory</small>
+</td>
+<td align="center">
+<img src="/assets/img/mathrent-approvals.png" alt="Rental Approvals" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><br><br>
+<b>Rental Approvals</b><br>
+<small>Manage rental requests and returns</small>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 💻 Project Structure
+
+### 🏗️ **Directory Structure**
+
+```
+MathRent/
+├── DashboardDesign/                 # React Frontend
+│   ├── src/
+│   │   ├── assets/           # TailwindCSS styles
+│   │   ├── components/       # Reusable UI components
+│   │   │   ├── Auth/         # Authentication components
+│   │   │   ├── Dashboard/      # Student-specific components
+│   │   │   ├── About.jsx        # Staff-specific components
+│   │   │   ├── Contact.jsx        # Staff-specific components
+│   │   │   └── LandingPage.jsx       # Shared components
+│   │   ├── context/         # API services
+│   │   ├── services/         # API services
+│   │   ├── utils/            # Utility functions
+│   │   └── App.jsx           # Main app component
+│   ├── public/               # Static assets
+│   ├── package.json          # Frontend dependencies
+│   └── tailwind.config.js    # TailwindCSS configuration
+├── FastAPI/                  # FastAPI Backend
+│   ├── app/
+│   │   ├── routers/          # API endpoints
+│   │   ├── crud/         # Business logic
+│   │   ├── schemas/         # Business logic
+│   │   ├── main.py         # Business logic
+│   │   ├── models.py         # Business logic
+│   │   ├── database.py        # Database configuration
+│   │   ├── schemas.py        # Database configuration
+│   │   └── auth.py            # Utility functions
+│   ├── main.py               # FastAPI app entry point
+│   ├── requirements.txt      # Python dependencies
+│   └── alembic/              # Database migrations
+├── docs/                     # Documentation
+├── README.md                 # Project documentation
+└── .gitignore               # Git ignore rules
+```
+
+### 🔧 **API Endpoints**
+
+**Authentication**
+- `POST /auth/register` - Student registration
+- `POST /auth/login` - User login
+- `POST /auth/logout` - User logout
+
+**Student Routes**
+- `GET /student/items` - Get available items
+- `GET /student/items/{id}` - Get item details
+- `POST /student/rentals` - Create rental request
+- `GET /student/rentals/history` - Get rental history
+
+**Staff Routes**
+- `GET /staff/items` - Get all items (CRUD)
+- `POST /staff/items` - Create new item
+- `PUT /staff/items/{id}` - Update item
+- `DELETE /staff/items/{id}` - Delete item
+- `GET /staff/rentals` - Get all rental requests
+- `PUT /staff/rentals/{id}/approve` - Approve rental
+- `PUT /staff/rentals/{id}/return` - Confirm return
+
+---
+
+## 🔐 Authentication & Authorization
+
+### 🎓 **Student Registration Validation**
+
+```python
+# NIM Validation Regex Patterns
+NIM_PATTERNS = {
+    "H011": "Matematika S1",
+    "H081": "Aktuaria S1",
+    "H012": "Matematika S2",
+    "H013": "Matematika S3",
+    "H071": "Sistem Informasi S1"
+}
+
+def validate_nim(nim: str) -> bool:
+    pattern = r'^(H011|H081|H012|H013|H071)\d{6}$'
+    return re.match(pattern, nim) is not None
+```
+
+### 🔒 **JWT Token Authentication**
+
+```python
+# JWT Token Configuration
+SECRET_KEY = "your-secret-key"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+
+def create_access_token(data: dict):
+    to_encode = data.copy()
+    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    to_encode.update({"exp": expire})
+    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+    return encoded_jwt
+```
+
+---
+
+## 📈 Project Status
+
+### ✅ **Completed Features**
+- [x] Student Authentication & Registration with NIM validation
+- [x] Staff Authentication System
+- [x] Item Catalog with Real-time Availability
+- [x] Rental Request System
+- [x] Staff CRUD Operations for Items
+- [x] Rental Approval Workflow
+- [x] Return Confirmation System
+- [x] Personal Rental History
+- [x] Responsive UI with TailwindCSS
+- [x] FastAPI Backend with JWT Authentication
+
+### 🚧 **Current Development**
+- [ ] Advanced Search & Filter System
+- [ ] Email Notifications for Rentals
+- [ ] Item Categories & Tags
+- [ ] Rental Duration Management
+- [ ] Analytics Dashboard for Staff
+
+### 🔮 **Future Roadmap**
+
+**Phase 1 - Enhanced Features**
+- [ ] QR Code Integration for Items
+- [ ] Mobile App (React Native)
+- [ ] WhatsApp Notifications
+- [ ] Rental Scheduling System
+
+**Phase 2 - Advanced Management**
+- [ ] Multi-Department Support
+- [ ] Inventory Analytics
+- [ ] Automated Reminder System
+- [ ] Integration with University Systems
+
+**Phase 3 - AI & Automation**
+- [ ] Predictive Analytics for Item Demand
+- [ ] Automated Inventory Reordering
+- [ ] Smart Recommendation System
+- [ ] Usage Pattern Analysis
+
+---
+
+## 👨‍💻 Developer Team
+
+### 🎯 **Development Team**
+
+<div align="center">
+
+<table style="border-spacing: 25px; border-collapse: separate;">
+<tr>
+<td align="center">
+<img src="https://github.com/Ervin1809.png" width="100" style="border-radius: 50%;"><br>
+<b>M. Ervin</b><br>
+<i>Backend Developer</i><br>
+<a href="https://github.com/Ervin1809">@Ervin1809</a>
+</td>
+<td align="center">
+<img src="https://github.com/zaynabzhaa10.png" width="100" style="border-radius: 50%;"><br>
+<b>Zaenab Muchsinin</b><br>
+<i>Frontend Developer</i><br>
+<a href="https://github.com/zaynabzhaa10">@zaynabzhaa10</a>
+</td>
+<td align="center">
+<img src="https://github.com/AthifahNurRahmanMD.png" width="100" style="border-radius: 50%;"><br>
+<b>Athifah Nur Rahman</b><br>
+<i>Frontend Developer</i><br>
+<a href="https://github.com/AthifahNurRahmanMD">@AthifahNurRahmanMD</a>
+</td>
+</tr>
+</table>
+
+</div>
+
+### 📋 **Team Roles & Responsibilities**
+
+<div align="center">
+
+<table style="border-collapse: collapse; width: 100%;">
+<thead>
+<tr style="background-color: #f8f9fa;">
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Team Member</b></th>
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Role</b></th>
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Responsibilities</b></th>
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><b>GitHub</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #dee2e6; padding: 12px;"><b>M. Ervin</b></td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Backend Developer</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">API Development, Database Design, Authentication System</td>
+<td style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><a href="https://github.com/Ervin1809">@Ervin1809</a></td>
+</tr>
+<tr style="background-color: #f8f9fa;">
+<td style="border: 1px solid #dee2e6; padding: 12px;"><b>Zaenab Muchsinin</b></td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Frontend Developer</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">UI/UX Implementation, React Components, State Management</td>
+<td style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><a href="https://github.com/zaynabzhaa10">@zaynabzhaa10</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #dee2e6; padding: 12px;"><b>Athifah Nur Rahman</b></td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Frontend Developer</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Interface Design, TailwindCSS Styling, User Experience</td>
+<td style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><a href="https://github.com/AthifahNurRahmanMD">@AthifahNurRahmanMD</a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+### 🔧 **Technical Expertise**
+
+<div align="center">
+
+<table style="border-collapse: collapse; width: 100%;">
+<tr>
+<td style="border: 1px solid #dee2e6; padding: 15px; text-align: center; width: 33%;">
+<b>🔙 Backend</b><br>
+<small>M. Ervin</small><br><br>
+• FastAPI Framework<br>
+• Python Development<br>
+• Database Management<br>
+• JWT Authentication<br>
+• API Documentation
+</td>
+<td style="border: 1px solid #dee2e6; padding: 15px; text-align: center; width: 33%;">
+<b>🎨 Frontend Lead</b><br>
+<small>Zaenab Muchsinin</small><br><br>
+• React.js & JSX<br>
+• Component Architecture<br>
+• State Management<br>
+• API Integration<br>
+• User Flow Design
+</td>
+<td style="border: 1px solid #dee2e6; padding: 15px; text-align: center; width: 33%;">
+<b>🎭 UI/UX Design</b><br>
+<small>Athifah Nur Rahman</small><br><br>
+• TailwindCSS Styling<br>
+• Responsive Design<br>
+• User Interface<br>
+• Visual Design<br>
+• User Experience
+</td>
+</tr>
+</table>
+
+</div>
+
+### 🏛️ **Institution**
+- **University**: Universitas Hasanuddin
+- **Department**: Departemen Matematika
+- **Location**: Makassar, South Sulawesi, Indonesia
+- **Academic Year**: 2024/2025
+
+### 🤝 **Team Collaboration**
+- **Project Management**: GitHub Projects & Issues
+- **Code Review**: Pull Request workflow
+- **Communication**: Discord & WhatsApp
+- **Development**: Collaborative coding with Git branching
+
+### 🏛️ **Institution**
+- **University**: Universitas Hasanuddin
+- **Department**: Matematika
+- **Location**: Makassar, South Sulawesi, Indonesia
+
+---
+
+## 📞 Support & Contact
+
+### 🎓 **Academic Support**
+- **Department**: Departemen Matematika UNHAS
+- **Email**: math@unhas.ac.id
+- **Website**: [https://math.unhas.ac.id](https://math.unhas.ac.id)
+
+### 💻 **Technical Support**
+- **GitHub Issues**: [Report Problems](https://github.com/Ervin1809/MathRent/issues)
+- **Feature Requests**: [Request Features](https://github.com/Ervin1809/MathRent/issues/new)
+- **Documentation**: [Wiki](https://github.com/Ervin1809/MathRent/wiki)
+
+### 📧 **Developer Contact**
+- **Email**: ervin.math@student.unhas.ac.id
+- **GitHub**: [@Ervin1809](https://github.com/Ervin1809)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ervin1809/MathRent/blob/main/LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+### 🏛️ **Special Thanks**
+- **Universitas Hasanuddin** - For providing the academic environment
+- **Departemen Matematika** - For the opportunity to solve real problems
+- **Staff Departemen** - For feedback and requirements gathering
+- **Fellow Students** - For testing and suggestions
+
+### 📚 **Technologies Used**
+- **React.js** - Frontend framework
+- **TailwindCSS** - CSS framework
+- **FastAPI** - Python web framework
+- **SQLAlchemy** - Database ORM
+- **JWT** - Authentication standard
+
+---
+
+**Made with ❤️ for Universitas Hasanuddin - Departemen Matematika**
+
+*Digitizing academic processes, one system at a time*
+
+⭐ **[Star this project](https://github.com/Ervin1809/Project-Web-MathRent-2025)** if you find it useful for your university!
+
+---
+
+*Last updated: June 26, 2025*
