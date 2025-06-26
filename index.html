@@ -55,7 +55,7 @@ description: "Passionate developer creating innovative solutions with modern tec
     <h2 class="section-title">Featured Projects</h2>
     <div class="projects-grid">
       {% for post in site.posts %}
-      <div class="project-card fade-in">
+      <div class="project-card fade-in visible">
         <div class="project-number">{{ forloop.index0 | plus: 1 | prepend: '0' | slice: -2, 2 }}</div>
         <div class="project-content">
           <h3 class="project-title">{{ post.title }}</h3>
