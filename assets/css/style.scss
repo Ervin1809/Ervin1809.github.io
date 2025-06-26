@@ -1,7 +1,10 @@
-:root {
-  color-scheme: dark !important;
+
+
+html, body, #sidebar {
+  background-color: #0d1117 !important;
+  color: #eee !important;
 }
-html, body {
-  background: #141414 !important;
+html[data-mode="light"], body[data-mode="light"], #sidebar[data-mode="light"] {
+  background-color: #0d1117 !important;
   color: #eee !important;
 }

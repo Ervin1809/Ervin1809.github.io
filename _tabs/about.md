@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hello! I’m **M. Ervin** (Muhammad Ervin), an enthusiastic programmer and technology explorer from Makassar, Indonesia.  
+Hello! I’m **M. Ervin**, an enthusiastic programmer and technology explorer from Makassar, Indonesia.  
 I started my coding journey in **2023** and have been passionate about building impactful projects and solving real-world problems ever since.
 
 ## Education & Experience
