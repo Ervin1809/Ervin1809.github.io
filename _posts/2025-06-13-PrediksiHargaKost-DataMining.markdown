@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Data Mining - Prediction Model
 description: Development of a Rental Price Prediction Model for Boarding Houses in Makassar
 date: 2025-06-13

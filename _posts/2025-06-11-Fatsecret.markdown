@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: post
 title: VinkerTrack - Personal Nutrition Tracker
 description: Android application for daily nutrition tracking integrated with USDA Food Data Central API
 date: 2025-06-11
 categories: Project
 tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutrition-Tracker, Mobile-App, Health-Tech]
+image : /assets/img/login.png
 ---
 
 # VinkerTrack - Personal Nutrition Tracker 🍎📱

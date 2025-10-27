@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: post
 title: MedRemind - Medicine Reminder App
 description: Mobile application to help users remember their medication schedules with automatic notifications
 date: 2025-06-22
 categories: Project
 tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, Notification, Health-Tech]
+image : /assets/img/home.png
 ---
 
 # MedRemind - Medicine Reminder App 💊📱

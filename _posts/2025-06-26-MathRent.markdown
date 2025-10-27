@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: post
 title: MathRent - Department of Mathematics Equipment Rental System
 description: Web application to facilitate equipment rental at the Department of Mathematics, Hasanuddin University
 date: 2025-06-26
 categories: Project
 tags: [React, JSX, TailwindCSS, FastAPI, Python, JavaScript, Web-Application, University-System, Rental-Management, Full-Stack]
+image : /assets/img/landing.png
 ---
 
 # MathRent - Department of Mathematics Equipment Rental System 📚🔧
