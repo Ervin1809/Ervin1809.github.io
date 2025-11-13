@@ -5,7 +5,7 @@ description : "Creating a Schedule Management Application with JavaFX"
 date: 2024-10-06
 categories: Project
 tags: [JavaFX, Java, Productivity]
-image : /assets/img/javaFX1.png
+
 ---
 
 # Creating a Schedule Management Application with JavaFX
@@ -25,13 +25,6 @@ image : /assets/img/javaFX1.png
 - **Database (MySQL/SQLite)** – To store schedule data persistently.
 - **FXML** – For structuring the user interface components.
 - **Artificial Intelligence** – Used in the AI assistant to help with schedule management.
-
-## Documentasi
-![Desktop View](/assets/img/javaFX1.png)
-*halaman login*
-
-![Desktop View](/assets/img/javaFX2.png)
-*halaman admin*
 
 ## Final Result
 🔗 [View Demo](https://yourprojectdemo.com)

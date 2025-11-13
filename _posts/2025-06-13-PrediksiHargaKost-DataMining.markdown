@@ -5,6 +5,7 @@ description: Development of a Rental Price Prediction Model for Boarding Houses 
 date: 2025-06-13
 categories: Project
 tags: [Python, XGBoost Regressor, Scikit-Learn, Geopy, Matplotlib, Seaborn, Selenium, Pandas, Numpy]
+image: assets/img/dataMining/dataMining.png
 ---
 
 # Development of a Boarding House Rental Price Prediction Model in Makassar Using Data Mining Techniques

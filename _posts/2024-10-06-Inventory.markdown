@@ -5,6 +5,7 @@ description : "Creating a Website Inventory using JavaScript, HTML, & CSS"
 date: 2024-10-06
 categories: Project
 tags: [HTML, CSS, JavaScript]
+image : /assets/img/javaFX1.png
 ---
 
 # Create a Simple Inventory Website
@@ -23,6 +24,13 @@ This is the **first website** I created, using **HTML, CSS, and JavaScript**. Th
 - **CSS** – Styling for an attractive appearance.
 - **JavaScript** – Logic for managing stock items dynamically.
 - **localStorage** – Stores stock data in the browser.
+
+## Documentasi
+![Desktop View](/assets/img/javaFX1.png)
+*halaman login*
+
+![Desktop View](/assets/img/javaFX2.png)
+*halaman admin*
 
 ## The final result
 🔗 [View Demo](https://yourinventorydemo.com)

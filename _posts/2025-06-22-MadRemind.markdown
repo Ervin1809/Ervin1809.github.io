@@ -5,7 +5,7 @@ description: Mobile application to help users remember their medication schedule
 date: 2025-06-22
 categories: Project
 tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, Notification, Health-Tech]
-image : /assets/img/home.png
+image : /assets/img/medRemind/home.png
 ---
 
 # MedRemind - Medicine Reminder App 💊📱
@@ -162,12 +162,12 @@ git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 <table style="border-spacing: 15px; border-collapse: separate;">
 <tr>
 <td align="center">
-<img src="/assets/img/home.png" alt="Dashboard" width="200"><br>
+<img src="/assets/img/medRemind/home.png" alt="Dashboard" width="200"><br>
 <b>Main Dashboard</b><br>
 Daily medication overview and reminders
 </td>
 <td align="center">
-<img src="/assets/img/obatDetail.png" alt="Medicine Details" width="200"><br>
+<img src="/assets/img/medRemind/obatDetail.png" alt="Medicine Details" width="200"><br>
 <b>Medicine Details</b><br>
 Detailed medicine information and dosage
 </td>
@@ -179,17 +179,17 @@ Detailed medicine information and dosage
 <table style="border-spacing: 15px;">
 <tr>
 <td align="center">
-  <img src="/assets/img/addObat.png" alt="Add Medicine" width="200"><br>
+  <img src="/assets/img/medRemind/addObat.png" alt="Add Medicine" width="200"><br>
   <b>Add Medicine</b><br>
   Simple medicine entry form
 </td>
 <td align="center">
-  <img src="/assets/img/addObatHarian.png" alt="Daily Schedule" width="200"><br>
+  <img src="/assets/img/medRemind/addObatHarian.png" alt="Daily Schedule" width="200"><br>
   <b>Daily Schedule</b><br>
   Set daily medication reminders
 </td>
 <td align="center">
-  <img src="/assets/img/addObatMingguan.png" alt="Weekly Schedule" width="200"><br>
+  <img src="/assets/img/medRemind/addObatMingguan.png" alt="Weekly Schedule" width="200"><br>
   <b>Weekly Schedule</b><br>
   Configure weekly medication schedule
 </td>
@@ -201,7 +201,7 @@ Detailed medicine information and dosage
 <table>
 <tr>
 <td align="center">
-<img src="/assets/img/profile.png" alt="Profile" width="200"><br>
+<img src="/assets/img/medRemind/profile.png" alt="Profile" width="200"><br>
 <b>User Profile</b><br>
 Personal information and app preferences
 </td>

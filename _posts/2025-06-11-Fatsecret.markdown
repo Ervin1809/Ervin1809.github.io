@@ -5,7 +5,7 @@ description: Android application for daily nutrition tracking integrated with US
 date: 2025-06-11
 categories: Project
 tags: [Android, Java, SQLite, USDA-API, Retrofit, Material-Design, MVVM, Nutrition-Tracker, Mobile-App, Health-Tech]
-image : /assets/img/login.png
+image : /assets/img/fatsecret/login.png
 ---
 
 # VinkerTrack - Personal Nutrition Tracker 🍎📱
@@ -176,12 +176,12 @@ image : /assets/img/login.png
 <table>
 <tr >
 <td align="center" width="50%">
-<img src="/assets/img/login.png" alt="Login Screen" width="200"><br>
+<img src="/assets/img/fatsecret/login.png" alt="Login Screen" width="200"><br>
 <b>Login Screen</b><br>
 <small>User authentication with email & password</small>
 </td>
 <td align="center" width="50%">
-<img src="/assets/img/regis.png" alt="Registration Screen" width="200"><br>
+<img src="/assets/img/fatsecret/regis.png" alt="Registration Screen" width="200"><br>
 <b>Registration Screen</b><br>
 <small>New user registration with validation</small>
 </td>
@@ -194,7 +194,7 @@ image : /assets/img/login.png
 
 <div align="center">
 
-<img src="/assets/img/search.png" alt="Food Search Interface" width="200"><br>
+<img src="/assets/img/fatsecret/search.png" alt="Food Search Interface" width="200"><br>
 <b>Food Search Interface</b><br>
 <small>Real-time search from USDA Food Data Central</small>
 
@@ -207,12 +207,12 @@ image : /assets/img/login.png
 <table style="border-spacing: 25px; border-collapse: separate;">
 <tr >
 <td align="center" width="50%">
-<img src="/assets/img/profile1.png" alt="Profile Setup" width="200"><br>
+<img src="/assets/img/fatsecret/profile1.png" alt="Profile Setup" width="200"><br>
 <b>Profile Setup</b><br>
 <small>Personal data input & health goals </small>
 </td>
 <td align="center" width="50%">
-<img src="/assets/img/profile2.png" alt="Profile Details" width="200"><br>
+<img src="/assets/img/fatsecret/profile2.png" alt="Profile Details" width="200"><br>
 <b>Profile Details</b><br>
 <small>BMR/TDEE calculation results</small>
 </td>
@@ -228,12 +228,12 @@ image : /assets/img/login.png
 <table style="border-spacing: 25px; border-collapse: separate;">
 <tr >
 <td align="center" width="50%">
-<img src="/assets/img/home1.png" alt="Main Dashboard" width="200"><br>
+<img src="/assets/img/fatsecret/home1.png" alt="Main Dashboard" width="200"><br>
 <b>Main Dashboard</b><br>
 <small>Daily nutrition summary</small>
 </td>
 <td align="center" width="50%">
-<img src="/assets/img/home2.png" alt="Nutrition Tracking" width="200"><br>
+<img src="/assets/img/fatsecret/home2.png" alt="Nutrition Tracking" width="200"><br>
 <b>Nutrition Tracking</b><br>
 <small>Detailed macro tracking</small>
 </td>
