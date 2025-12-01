@@ -104,48 +104,21 @@ image : /assets/img/medRemind/home.png
 
 ---
 
-## 🚀 Installation & Getting Started
+## 👨‍💻 **Tech Stack**
 
-### 📋 **System Requirements**
-- **OS**: Android 6.0 (Marshmallow) or higher
-- **Storage**: At least 100MB free space
-- **Permissions**: Notification access, Storage access
-- **Internet**: Optional (for certain features)
+**Platform:** Android 6.0+ (API 21+)
+**Language:** Java
+**Database:** SQLite
+**Architecture:** MVC Pattern
+**Design:** Material Design
 
-### ⚡ **Installation Steps**
+---
 
-**1. Download APK**
-```bash
-# Clone repository
-git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
+## 🔗 **Links**
 
-# Or download directly
-# Visit: https://github.com/Ervin1809/Project-Mobile-MedRemind/releases
-```
-
-**2. Installation**
-```
-📱 Open the downloaded APK file
-🔐 Allow installation from unknown sources
-📲 Follow on-screen installation prompts
-✅ Wait until installation completes
-```
-
-**3. Initial Setup**
-```
-🚀 Open the MedRemind app
-👤 Create an account or login as guest
-🔔 Grant notification permissions when prompted
-⚙️ Complete initial profile setup
-```
-
-**4. Adding Your First Medicine**
-```
-➕ Select "addObat" from navigation
-📝 Fill in the required medicine information
-⏰ Set reminder schedules
-💾 Save and activate reminders
-```
+- 📱 [Download APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)
+- 🔗 [Source Code](https://github.com/Ervin1809/Project-Mobile-MedRemind)
+- 📚 [Documentation](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)
 
 ---
 
@@ -199,23 +172,19 @@ git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 
 ### 🔧 **Development Setup**
 
-```bash
-# Clone repository
-git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
-cd Project-Mobile-MedRemind
+Clone repository:
+`git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git`
+`cd Project-Mobile-MedRemind`
 
-# Open with Android Studio
-# File → Open → Select project folder
-# Wait for Gradle sync to complete
+Open with Android Studio:
+File → Open → Select project folder
+Wait for Gradle sync to complete
 
-# Build & Run
-./gradlew assembleDebug
-./gradlew installDebug
-```
+Build & Run:
+`./gradlew assembleDebug`
+`./gradlew installDebug`
 
----
-
-## 📈 Project Status
+---## 📈 Project Status
 
 ### ✅ **Implemented Features**
 - [x] Medicine Database Management

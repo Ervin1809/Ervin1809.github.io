@@ -101,80 +101,18 @@ This system was developed to address the limitations of conventional borrowing s
 
 ---
 
-## 🛠️ Tech Stack
+## 👨‍💻 Tech Stack
 
-### 🎨 **Frontend**
-- **Framework**: React.js with JSX
-- **Styling**: TailwindCSS
-- **State Management**: React Hooks
-- **HTTP Client**: Axios/Fetch API
-- **Routing**: React Router DOM
-
-### ⚡ **Backend**
-- **Framework**: FastAPI (Python)
-- **Database**: SQLite/PostgreSQL
-- **Authentication**: JWT Token
-- **API Documentation**: Swagger/OpenAPI
-- **CORS**: FastAPI CORS middleware
-
-### 💻 **Development Tools**
-- **IDE**: Visual Studio Code
-- **Version Control**: Git & GitHub
-- **Package Manager**: npm/yarn (Frontend), pip (Backend)
-- **API Testing**: Postman
+**Frontend:** React.js, JSX, TailwindCSS, React Hooks, React Router DOM
+**Backend:** FastAPI, Python, SQLite/PostgreSQL, JWT Authentication
+**Tools:** VS Code, Git, npm/yarn, pip
 
 ---
 
-## 🚀 Installation & Setup
+## 🔗 Links
 
-### 📋 **Prerequisites**
-- Node.js 16+ and npm/yarn
-- Python 3.8+
-- Git
-- VS Code (Recommended)
-
-### ⚡ **Quick Start**
-
-**1. Clone Repository**
-```bash
-git clone https://github.com/Ervin1809/Project-Web-MathRent-2025.git
-cd Project-Web-MathRent-2025
-```
-
-**2. Backend Setup (FastAPI)**
-```bash
-# Navigate to backend directory
-cd FastAPI
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run FastAPI server
-uvicorn main:app --reload --port 8000
-```
-
-**3. Frontend Setup (React)**
-```bash
-# Navigate to frontend directory (new terminal)
-cd DashboardDesign
-
-# Install dependencies
-npm install
-# or
-yarn install
-
-# Start development server
-npm run dev
-# or
-yarn dev
-```
-
-**4. Access Application**
-```
-Frontend: http://localhost:3000
-Backend API: http://localhost:8000
-API Docs: http://localhost:8000/docs
-```
+- 🔗 [Source Code](https://github.com/Ervin1809/Project-Web-MathRent-2025)
+- 📚 [Documentation](https://github.com/Ervin1809/Project-Web-MathRent-2025/wiki)
 
 ---
 
@@ -249,43 +187,19 @@ API Docs: http://localhost:8000/docs
 
 ### 🏗️ **Directory Structure**
 
-```
-MathRent/
-├── DashboardDesign/                 # React Frontend
-│   ├── src/
-│   │   ├── assets/           # TailwindCSS styles
-│   │   ├── components/       # Reusable UI components
-│   │   │   ├── Auth/         # Authentication components
-│   │   │   ├── Dashboard/      # Student-specific components
-│   │   │   ├── About.jsx        # Staff-specific components
-│   │   │   ├── Contact.jsx        # Staff-specific components
-│   │   │   └── LandingPage.jsx       # Shared components
-│   │   ├── context/         # API services
-│   │   ├── services/         # API services
-│   │   ├── utils/            # Utility functions
-│   │   └── App.jsx           # Main app component
-│   ├── public/               # Static assets
-│   ├── package.json          # Frontend dependencies
-│   └── tailwind.config.js    # TailwindCSS configuration
-├── FastAPI/                  # FastAPI Backend
-│   ├── app/
-│   │   ├── routers/          # API endpoints
-│   │   ├── crud/         # Business logic
-│   │   ├── schemas/         # Business logic
-│   │   ├── main.py         # Business logic
-│   │   ├── models.py         # Business logic
-│   │   ├── database.py        # Database configuration
-│   │   ├── schemas.py        # Database configuration
-│   │   └── auth.py            # Utility functions
-│   ├── main.py               # FastAPI app entry point
-│   ├── requirements.txt      # Python dependencies
-│   └── alembic/              # Database migrations
-├── docs/                     # Documentation
-├── README.md                 # Project documentation
-└── .gitignore               # Git ignore rules
-```
+**Frontend (React + TailwindCSS):**
+- `DashboardDesign/src/` - Main source code
+  - `components/` - Reusable UI components
+  - `assets/` - Styles and static files
+  - `services/` - API integration
+  - `utils/` - Helper functions
 
-### 🔧 **API Endpoints**
+**Backend (FastAPI + Python):**
+- `FastAPI/app/` - Backend application
+  - `routers/` - API endpoints
+  - `crud/` - Database operations
+  - `models.py` - Database models
+  - `auth.py` - Authentication logic### 🔧 **API Endpoints**
 
 **Authentication**
 - `POST /auth/register` - Student registration
@@ -313,38 +227,25 @@ MathRent/
 
 ### 🎓 **Student Registration Validation**
 
-```python
-# NIM Validation Regex Patterns
-NIM_PATTERNS = {
-    "H011": "Mathematics BSc",
-    "H081": "Actuarial Science",
-    "H012": "Mathematics MSc",
-    "H013": "Mathematics PhD",
-    "H071": "Information Systems"
-}
+**NIM Validation Patterns:**
 
-def validate_nim(nim: str) -> bool:
-    pattern = r'^(H011|H081|H012|H013|H071)\d{6}$'
-    return re.match(pattern, nim) is not None
-```
+- **H011xxxxxxx** - Mathematics BSc
+- **H081xxxxxxx** - Actuarial Science
+- **H012xxxxxxx** - Mathematics MSc
+- **H013xxxxxxx** - Mathematics PhD
+- **H071xxxxxxx** - Information Systems
+
+Validation uses regex pattern to ensure NIM matches the correct format for each study program.
 
 ### 🔒 **JWT Token Authentication**
 
-```python
-# JWT Token Configuration
-SECRET_KEY = "your-secret-key"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+**Security Features:**
 
-def create_access_token(data: dict):
-    to_encode = data.copy()
-    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-    to_encode.update({"exp": expire})
-    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
-    return encoded_jwt
-```
-
----
+- Token-based authentication using JWT
+- Secure session management
+- 30-minute token expiration
+- Password hashing and validation
+- Protected API endpoints---
 
 ## 📈 Project Status
 
