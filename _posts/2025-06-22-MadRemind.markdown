@@ -10,12 +10,6 @@ image : /assets/img/medRemind/home.png
 
 # MedRemind - Medicine Reminder App 💊📱
 
-![Android](https://img.shields.io/badge/Platform-Android-green.svg)
-![Java](https://img.shields.io/badge/Language-Java-orange.svg)
-![SQLite](https://img.shields.io/badge/Database-SQLite-blue.svg)
-![MVC](https://img.shields.io/badge/Architecture-MVC-purple.svg)
-![Healthcare](https://img.shields.io/badge/Domain-Healthcare-red.svg)
-
 **[📱 Download APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)** •
 **[📖 Documentation](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)** •
 **[🐛 Report Issues](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)**
@@ -121,37 +115,37 @@ image : /assets/img/medRemind/home.png
 ### ⚡ **Installation Steps**
 
 **1. Download APK**
-<pre>
+```bash
 # Clone repository
 git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 
 # Or download directly
 # Visit: https://github.com/Ervin1809/Project-Mobile-MedRemind/releases
-</pre>
+```
 
 **2. Installation**
-<pre>
+```
 📱 Open the downloaded APK file
 🔐 Allow installation from unknown sources
 📲 Follow on-screen installation prompts
 ✅ Wait until installation completes
-</pre>
+```
 
 **3. Initial Setup**
-<pre>
+```
 🚀 Open the MedRemind app
 👤 Create an account or login as guest
 🔔 Grant notification permissions when prompted
 ⚙️ Complete initial profile setup
-</pre>
+```
 
 **4. Adding Your First Medicine**
-<pre>
+```
 ➕ Select "addObat" from navigation
 📝 Fill in the required medicine information
 ⏰ Set reminder schedules
 💾 Save and activate reminders
-</pre>
+```
 
 ---
 
@@ -159,54 +153,45 @@ git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 
 ### 🏠 Home & Dashboard
 
-<table style="border-spacing: 15px; border-collapse: separate;">
-<tr>
-<td align="center">
-<img src="/assets/img/medRemind/home.png" alt="Dashboard" width="200"><br>
-<b>Main Dashboard</b><br>
-Daily medication overview and reminders
-</td>
-<td align="center">
-<img src="/assets/img/medRemind/obatDetail.png" alt="Medicine Details" width="200"><br>
-<b>Medicine Details</b><br>
-Detailed medicine information and dosage
-</td>
-</tr>
-</table>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+  <div>
+    <img src="/assets/img/medRemind/home.png" alt="Main Dashboard" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Main Dashboard</strong> - Daily medication overview and reminders</p>
+  </div>
+  <div>
+    <img src="/assets/img/medRemind/obatDetail.png" alt="Medicine Details" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Medicine Details</strong> - Detailed medicine information and dosage</p>
+  </div>
+</div>
+
+---
 
 ### 💊 Medicine Management
 
-<table style="border-spacing: 15px;">
-<tr>
-<td align="center">
-  <img src="/assets/img/medRemind/addObat.png" alt="Add Medicine" width="200"><br>
-  <b>Add Medicine</b><br>
-  Simple medicine entry form
-</td>
-<td align="center">
-  <img src="/assets/img/medRemind/addObatHarian.png" alt="Daily Schedule" width="200"><br>
-  <b>Daily Schedule</b><br>
-  Set daily medication reminders
-</td>
-<td align="center">
-  <img src="/assets/img/medRemind/addObatMingguan.png" alt="Weekly Schedule" width="200"><br>
-  <b>Weekly Schedule</b><br>
-  Configure weekly medication schedule
-</td>
-</tr>
-</table>
+<div style="margin-bottom: 30px;">
+  <img src="/assets/img/medRemind/addObat.png" alt="Add Medicine" style="width: 100%; max-width: 400px; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Add Medicine</strong> - Simple medicine entry form</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+  <div>
+    <img src="/assets/img/medRemind/addObatHarian.png" alt="Daily Schedule" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Daily Schedule</strong> - Set daily medication reminders</p>
+  </div>
+  <div>
+    <img src="/assets/img/medRemind/addObatMingguan.png" alt="Weekly Schedule" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Weekly Schedule</strong> - Configure weekly medication schedule</p>
+  </div>
+</div>
+
+---
 
 ### 👤 Profile & Settings
 
-<table>
-<tr>
-<td align="center">
-<img src="/assets/img/medRemind/profile.png" alt="Profile" width="200"><br>
-<b>User Profile</b><br>
-Personal information and app preferences
-</td>
-</tr>
-</table>
+<div style="margin-bottom: 30px;">
+  <img src="/assets/img/medRemind/profile.png" alt="User Profile" style="width: 100%; max-width: 400px; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>User Profile</strong> - Personal information and app preferences</p>
+</div>
 
 ---
 
@@ -214,7 +199,7 @@ Personal information and app preferences
 
 ### 🔧 **Development Setup**
 
-<pre>
+```bash
 # Clone repository
 git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git
 cd Project-Mobile-MedRemind
@@ -226,7 +211,7 @@ cd Project-Mobile-MedRemind
 # Build & Run
 ./gradlew assembleDebug
 ./gradlew installDebug
-</pre>
+```
 
 ---
 

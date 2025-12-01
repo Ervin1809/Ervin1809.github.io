@@ -10,12 +10,6 @@ image : /assets/img/fatsecret/login.png
 
 # VinkerTrack - Personal Nutrition Tracker 🍎📱
 
-![Android](https://img.shields.io/badge/Platform-Android-green.svg)
-![Java](https://img.shields.io/badge/Language-Java-orange.svg)
-![SQLite](https://img.shields.io/badge/Database-SQLite-blue.svg)
-![API](https://img.shields.io/badge/API-USDA%20FDC-yellow.svg)
-![Retrofit](https://img.shields.io/badge/Network-Retrofit2-blue.svg)
-
 **[📱 Download APK](https://github.com/Ervin1809/Project-Fatsecret-AndrodiStudio-2025/releases)** •
 **[📖 Documentation](https://github.com/Ervin1809/Project-Fatsecret-AndrodiStudio-2025/wiki)** •
 **[🐛 Report Issues](https://github.com/Ervin1809/Project-Fatsecret-AndrodiStudio-2025/issues)**
@@ -171,75 +165,54 @@ image : /assets/img/fatsecret/login.png
 
 ### 🔐 Authentication
 
-<div align="center">
-
-<table>
-<tr >
-<td align="center" width="50%">
-<img src="/assets/img/fatsecret/login.png" alt="Login Screen" width="200"><br>
-<b>Login Screen</b><br>
-<small>User authentication with email & password</small>
-</td>
-<td align="center" width="50%">
-<img src="/assets/img/fatsecret/regis.png" alt="Registration Screen" width="200"><br>
-<b>Registration Screen</b><br>
-<small>New user registration with validation</small>
-</td>
-</tr>
-</table>
-
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+  <div>
+    <img src="/assets/img/fatsecret/login.png" alt="Login Screen" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Login Screen</strong> - User authentication with email & password</p>
+  </div>
+  <div>
+    <img src="/assets/img/fatsecret/regis.png" alt="Registration Screen" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Registration Screen</strong> - New user registration with validation</p>
+  </div>
 </div>
+
+---
 
 ### 🔍 Food Search & Database
 
-<div align="center">
-
-<img src="/assets/img/fatsecret/search.png" alt="Food Search Interface" width="200"><br>
-<b>Food Search Interface</b><br>
-<small>Real-time search from USDA Food Data Central</small>
-
+<div style="margin-bottom: 30px;">
+  <img src="/assets/img/fatsecret/search.png" alt="Food Search Interface" style="width: 100%; max-width: 400px; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Food Search Interface</strong> - Real-time search from USDA Food Data Central</p>
 </div>
+
+---
 
 ### 👤 User Profile Management
 
-<div align="center">
-
-<table style="border-spacing: 25px; border-collapse: separate;">
-<tr >
-<td align="center" width="50%">
-<img src="/assets/img/fatsecret/profile1.png" alt="Profile Setup" width="200"><br>
-<b>Profile Setup</b><br>
-<small>Personal data input & health goals </small>
-</td>
-<td align="center" width="50%">
-<img src="/assets/img/fatsecret/profile2.png" alt="Profile Details" width="200"><br>
-<b>Profile Details</b><br>
-<small>BMR/TDEE calculation results</small>
-</td>
-</tr>
-</table>
-
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+  <div>
+    <img src="/assets/img/fatsecret/profile1.png" alt="Profile Setup" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Profile Setup</strong> - Personal data input & health goals</p>
+  </div>
+  <div>
+    <img src="/assets/img/fatsecret/profile2.png" alt="Profile Details" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Profile Details</strong> - BMR/TDEE calculation results</p>
+  </div>
 </div>
+
+---
 
 ### 📊 Home Dashboard & Analytics
 
-<div align="center">
-
-<table style="border-spacing: 25px; border-collapse: separate;">
-<tr >
-<td align="center" width="50%">
-<img src="/assets/img/fatsecret/home1.png" alt="Main Dashboard" width="200"><br>
-<b>Main Dashboard</b><br>
-<small>Daily nutrition summary</small>
-</td>
-<td align="center" width="50%">
-<img src="/assets/img/fatsecret/home2.png" alt="Nutrition Tracking" width="200"><br>
-<b>Nutrition Tracking</b><br>
-<small>Detailed macro tracking</small>
-</td>
-</tr>
-</table>
-
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+  <div>
+    <img src="/assets/img/fatsecret/home1.png" alt="Main Dashboard" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Main Dashboard</strong> - Daily nutrition summary</p>
+  </div>
+  <div>
+    <img src="/assets/img/fatsecret/home2.png" alt="Nutrition Tracking" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Nutrition Tracking</strong> - Detailed macro tracking</p>
+  </div>
 </div>
 
 ### ✨ Key Features Showcase
