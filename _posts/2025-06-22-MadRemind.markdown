@@ -1,228 +1,228 @@
 ---
 layout: post
-title: MedRemind - Medicine Reminder App
-description: Mobile application to help users remember their medication schedules with automatic notifications
+title: MedRemind - Aplikasi Pengingat Minum Obat
+description: Aplikasi mobile untuk membantu pengguna mengingat jadwal minum obat dengan notifikasi otomatis
 date: 2025-06-22
 categories: Project
 tags: [Android, Java, SQLite, MVC, Mobile-App, Healthcare, Medicine-Reminder, Notification, Health-Tech]
 image : /assets/img/medRemind/home.png
 ---
 
-# MedRemind - Medicine Reminder App 💊📱
+# MedRemind - Aplikasi Pengingat Minum Obat 💊📱
 
-**[📱 Download APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)** •
-**[📖 Documentation](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)** •
-**[🐛 Report Issues](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)**
-
----
-
-## 📱 About MedRemind
-
-**MedRemind** is a mobile application designed to help users remember their medication schedules more regularly and on time. The app provides automatic notifications according to the set schedule, preventing missed doses, especially for users with complex medication regimens.
-
-### 🎯 Problems Addressed
-
-✅ **Forgetfulness**: Automatic notifications prevent missed medication
-✅ **Stock Management**: Monitor medicine supplies and refill reminders
-✅ **Complex Schedules**: Flexible and easy dose scheduling
-✅ **Treatment Adherence**: Track medication intake to improve adherence
+**[📱 Unduh APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)** •
+**[📖 Dokumentasi](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)** •
+**[🐛 Laporkan Masalah](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)**
 
 ---
 
-## 👥 Target Users
+## 📱 Tentang MedRemind
 
-### 🎯 Primary Users
+**MedRemind** adalah aplikasi mobile yang dirancang untuk membantu pengguna mengingat jadwal minum obat secara lebih teratur dan tepat waktu. Aplikasi ini menyediakan notifikasi otomatis sesuai dengan jadwal yang telah ditetapkan, mencegah terlewatnya dosis obat, terutama bagi pengguna dengan rejimen pengobatan yang kompleks.
 
-**👴 Elderly**
-- Need reminders for medication routines
-- Simple and easy-to-use interface
+### 🎯 Masalah yang Diatasi
 
-**🏥 Chronic Disease Patients**
-- Complex, routine medication schedules
-- Multiple medications management
-
-**🩹 Post-Operative Patients**
-- Adherence to medication regimens
-- Temporary medication schedules
-
-### 🤝 Secondary Users
-
-**👨‍👩‍👧‍👦 Caregivers & Families**
-- Help manage medications for others
-- Remote monitoring capabilities
-
-**👤 General Users**
-- Organize medication more efficiently
-- Preventive health management
+✅ **Kelupaan**: Notifikasi otomatis mencegah lupa minum obat
+✅ **Manajemen Stok**: Memantau persediaan obat dan pengingat isi ulang
+✅ **Jadwal Kompleks**: Penjadwalan dosis yang fleksibel dan mudah
+✅ **Kepatuhan Pengobatan**: Melacak asupan obat untuk meningkatkan kepatuhan
 
 ---
 
-## ✨ Main Features
+## 👥 Pengguna Target
 
-### 💊 **Medicine Data Input**
-- Add new medicines with complete information
-- Store medicine name, description, and usage instructions
-- Structured medicine database
+### 🎯 Pengguna Utama
 
-### ⚖️ **Dose, Stock & Refill Management**
-- Dose schedule settings (daily, weekly, custom)
-- Monitor remaining medicine stock
-- Automatic refill reminders when stock is low
-- Flexible dosage configurations
+**👴 Lansia**
+- Memerlukan pengingat untuk rutinitas minum obat
+- Antarmuka yang sederhana dan mudah digunakan
 
-### 🔔 **Automatic Reminders**
-- Timely notifications for medication schedules
-- "Taken" confirmation for tracking
-- Smart notification system
-- Customizable reminder sounds
+**🏥 Pasien Penyakit Kronis**
+- Jadwal obat rutin yang kompleks
+- Pengelolaan beberapa jenis obat
 
-### ⚙️ **Additional Features**
-- Delete or reset medicine data
-- User profile management
-- Dark and light mode
-- Backup and restore data
+**🩹 Pasien Pasca Operasi**
+- Kepatuhan terhadap regimen pengobatan
+- Jadwal pengobatan sementara
+
+### 🤝 Pengguna Sekunder
+
+**👨‍👩‍👧‍👦 Pengasuh dan Keluarga**
+- Membantu mengelola obat untuk orang lain
+- Kemampuan pemantauan jarak jauh
+
+**👤 Pengguna Umum**
+- Mengorganisir pengobatan dengan lebih efisien
+- Manajemen kesehatan preventif
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Fitur Utama
 
-### 📱 **Platform & Language**
+### 💊 **Input Data Obat**
+- Menambahkan obat baru dengan informasi lengkap
+- Menyimpan nama obat, deskripsi, dan instruksi penggunaan
+- Basis data obat yang terstruktur
+
+### ⚖️ **Manajemen Dosis, Stok, dan Isi Ulang**
+- Pengaturan jadwal dosis (harian, mingguan, kustom)
+- Memantau sisa stok obat
+- Pengingat isi ulang otomatis saat stok menipis
+- Konfigurasi dosis yang fleksibel
+
+### 🔔 **Pengingat Otomatis**
+- Notifikasi tepat waktu untuk jadwal minum obat
+- Konfirmasi "Sudah Diminum" untuk pelacakan
+- Sistem notifikasi cerdas
+- Suara pengingat yang dapat disesuaikan
+
+### ⚙️ **Fitur Tambahan**
+- Menghapus atau mereset data obat
+- Manajemen profil pengguna
+- Mode gelap dan terang
+- Cadangkan dan pulihkan data
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+### 📱 **Platform dan Bahasa**
 - **Platform**: Android 6.0+ (API 23+)
-- **Language**: Java
+- **Bahasa Pemrograman**: Java
 - **IDE**: Android Studio
 
-### 🏗️ **Architecture & Database**
-- **Architecture**: Model-View-Controller (MVC)
-- **Database**: SQLite (Local Storage)
-- **Pattern**: Native Android Components
+### 🏗️ **Arsitektur dan Basis Data**
+- **Arsitektur**: Model-View-Controller (MVC)
+- **Basis Data**: SQLite (Penyimpanan Lokal)
+- **Pola**: Komponen Android Natif
 
-### 🔧 **Development Approach**
-- **Framework**: Native Android (No external frameworks)
-- **Design**: Material Design Guidelines
-- **Notifications**: Android Notification Manager
-- **Storage**: Shared Preferences + SQLite
+### 🔧 **Pendekatan Pengembangan**
+- **Framework**: Android Natif (Tanpa framework eksternal)
+- **Desain**: Panduan Material Design
+- **Notifikasi**: Android Notification Manager
+- **Penyimpanan**: Shared Preferences + SQLite
 
 ---
 
-## 👨‍💻 **Tech Stack**
+## 👨‍💻 **Teknologi**
 
 **Platform:** Android 6.0+ (API 21+)
-**Language:** Java
-**Database:** SQLite
-**Architecture:** MVC Pattern
-**Design:** Material Design
+**Bahasa:** Java
+**Basis Data:** SQLite
+**Arsitektur:** Pola MVC
+**Desain:** Material Design
 
 ---
 
-## 🔗 **Links**
+## 🔗 **Tautan**
 
-- 📱 [Download APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)
-- 🔗 [Source Code](https://github.com/Ervin1809/Project-Mobile-MedRemind)
-- 📚 [Documentation](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)
+- 📱 [Unduh APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)
+- 🔗 [Kode Sumber](https://github.com/Ervin1809/Project-Mobile-MedRemind)
+- 📚 [Dokumentasi](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)
 
 ---
 
-## 📱 Screenshots & Demo
+## 📱 Tangkapan Layar dan Demo
 
-### 🏠 Home & Dashboard
+### 🏠 Beranda dan Dasbor
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
   <div>
     <img src="/assets/img/medRemind/home.png" alt="Main Dashboard" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Main Dashboard</strong> - Daily medication overview and reminders</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Dasbor Utama</strong> - Ringkasan obat harian dan pengingat</p>
   </div>
   <div>
     <img src="/assets/img/medRemind/obatDetail.png" alt="Medicine Details" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Medicine Details</strong> - Detailed medicine information and dosage</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Detail Obat</strong> - Informasi obat dan dosis yang lengkap</p>
   </div>
 </div>
 
 ---
 
-### 💊 Medicine Management
+### 💊 Manajemen Obat
 
 <div style="margin-bottom: 30px;">
   <img src="/assets/img/medRemind/addObat.png" alt="Add Medicine" style="width: 100%; max-width: 400px; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-  <p style="text-align: center; font-style: italic; color: #666;"><strong>Add Medicine</strong> - Simple medicine entry form</p>
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Tambah Obat</strong> - Formulir input obat yang sederhana</p>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
   <div>
     <img src="/assets/img/medRemind/addObatHarian.png" alt="Daily Schedule" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Daily Schedule</strong> - Set daily medication reminders</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Jadwal Harian</strong> - Atur pengingat obat harian</p>
   </div>
   <div>
     <img src="/assets/img/medRemind/addObatMingguan.png" alt="Weekly Schedule" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Weekly Schedule</strong> - Configure weekly medication schedule</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Jadwal Mingguan</strong> - Konfigurasi jadwal obat mingguan</p>
   </div>
 </div>
 
 ---
 
-### 👤 Profile & Settings
+### 👤 Profil dan Pengaturan
 
 <div style="margin-bottom: 30px;">
   <img src="/assets/img/medRemind/profile.png" alt="User Profile" style="width: 100%; max-width: 400px; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-  <p style="text-align: center; font-style: italic; color: #666;"><strong>User Profile</strong> - Personal information and app preferences</p>
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Profil Pengguna</strong> - Informasi pribadi dan preferensi aplikasi</p>
 </div>
 
 ---
 
-## 💻 For Developers
+## 💻 Untuk Pengembang
 
-### 🔧 **Development Setup**
+### 🔧 **Pengaturan Pengembangan**
 
-Clone repository:
+Klon repositori:
 `git clone https://github.com/Ervin1809/Project-Mobile-MedRemind.git`
 `cd Project-Mobile-MedRemind`
 
-Open with Android Studio:
-File → Open → Select project folder
-Wait for Gradle sync to complete
+Buka dengan Android Studio:
+File → Open → Pilih folder proyek
+Tunggu sinkronisasi Gradle selesai
 
-Build & Run:
+Bangun dan Jalankan:
 `./gradlew assembleDebug`
 `./gradlew installDebug`
 
----## 📈 Project Status
+---## 📈 Status Proyek
 
-### ✅ **Implemented Features**
-- [x] Medicine Database Management
-- [x] Smart Notification System
-- [x] Dosage & Schedule Configuration
-- [x] Stock Monitoring & Refill Alerts
-- [x] User Profile Management
-- [x] Dark/Light Theme Support
-- [x] Medicine Intake Confirmation
-- [x] SQLite Local Storage
+### ✅ **Fitur yang Telah Diimplementasikan**
+- [x] Manajemen Basis Data Obat
+- [x] Sistem Notifikasi Cerdas
+- [x] Konfigurasi Dosis dan Jadwal
+- [x] Pemantauan Stok dan Peringatan Isi Ulang
+- [x] Manajemen Profil Pengguna
+- [x] Dukungan Tema Gelap/Terang
+- [x] Konfirmasi Asupan Obat
+- [x] Penyimpanan Lokal SQLite
 
-### 🚧 **Future Enhancements**
+### 🚧 **Peningkatan di Masa Depan**
 
-**Phase 1 - Core Improvements**
-- [ ] Medicine Interaction Warnings
-- [ ] Dosage History Analytics
-- [ ] Export Health Reports
-- [ ] Cloud Backup & Sync
+**Fase 1 - Peningkatan Inti**
+- [ ] Peringatan Interaksi Obat
+- [ ] Analitik Riwayat Dosis
+- [ ] Ekspor Laporan Kesehatan
+- [ ] Cadangan dan Sinkronisasi Cloud
 
-**Phase 2 - Advanced Features**
-- [ ] Barcode Medicine Scanner
-- [ ] Doctor/Pharmacy Integration
-- [ ] Family Member Monitoring
-- [ ] Multi-language Support
+**Fase 2 - Fitur Lanjutan**
+- [ ] Pemindai Kode Batang Obat
+- [ ] Integrasi Dokter/Apotek
+- [ ] Pemantauan Anggota Keluarga
+- [ ] Dukungan Multi-bahasa
 
-**Phase 3 - Smart Features**
-- [ ] AI-powered Adherence Insights
-- [ ] Wearable Device Integration
-- [ ] Voice Commands Support
-- [ ] Telemedicine Integration
+**Fase 3 - Fitur Cerdas**
+- [ ] Wawasan Kepatuhan Bertenaga AI
+- [ ] Integrasi Perangkat yang Dapat Dipakai
+- [ ] Dukungan Perintah Suara
+- [ ] Integrasi Telemedisin
 
 ---
 
-## 👨‍💻 Development Team
+## 👨‍💻 Tim Pengembang
 
-### 🎯 **Development Team**
+### 🎯 **Tim Pengembangan**
 
-| Name | Student ID | GitHub |
+| Nama | NIM | GitHub |
 |------|------------|--------|
 | **M. Ervin** | H071231050 | [@Ervin1809](https://github.com/Ervin1809) |
 | **Frisilia Kiki** | H071231003 | [@frisiliakiki](https://github.com/frisiliakiki) |
@@ -230,34 +230,34 @@ Build & Run:
 | **Jevon Ivander Thomas** | H071231067 | [@jevonivander](https://github.com/jevonivander) |
 | **Imam Ahmad Mirza** | H071231082 | [@imamamirza](https://github.com/imamamirza) |
 
-## 📞 Support & Contact
+## 📞 Dukungan dan Kontak
 
-### Get Help
+### Dapatkan Bantuan
 
-**[🐛 Bug Reports](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)** •
-**[💡 Feature Requests](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues/new)** •
+**[🐛 Laporan Bug](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)** •
+**[💡 Permintaan Fitur](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues/new)** •
 **[📖 Wiki](https://github.com/Ervin1809/Project-Mobile-MedRemind/wiki)**
 
-### Project Links
+### Tautan Proyek
 
-- **Repository**: [MedRemind Project](https://github.com/Ervin1809/Project-Mobile-MedRemind)
-- **Releases**: [Download APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)
-- **Issues**: [Report Problems](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ervin1809/Project-Mobile-MedRemind/blob/main/LICENSE) file for details.
+- **Repositori**: [Proyek MedRemind](https://github.com/Ervin1809/Project-Mobile-MedRemind)
+- **Rilis**: [Unduh APK](https://github.com/Ervin1809/Project-Mobile-MedRemind/releases)
+- **Issues**: [Laporkan Masalah](https://github.com/Ervin1809/Project-Mobile-MedRemind/issues)
 
 ---
 
-**Made with ❤️ by Team MedRemind**
+## 📄 Lisensi
 
-*Helping people maintain better medication adherence through smart reminders*
-
-⭐ **[Star this project](https://github.com/Ervin1809/Project-Mobile-MedRemind)** if you find it useful!
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](https://github.com/Ervin1809/Project-Mobile-MedRemind/blob/main/LICENSE) untuk detailnya.
 
 ---
 
-*Last updated: June 22, 2025*
+**Dibuat dengan ❤️ oleh Tim MedRemind**
+
+*Membantu orang menjaga kepatuhan pengobatan yang lebih baik melalui pengingat cerdas*
+
+⭐ **[Beri bintang proyek ini](https://github.com/Ervin1809/Project-Mobile-MedRemind)** jika Anda merasa berguna!
+
+---
+
+*Terakhir diperbarui: 22 Juni 2025*

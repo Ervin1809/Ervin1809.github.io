@@ -1,38 +1,38 @@
 ---
 layout: post
-title: "Schedule Management - Using JavaFX"
-description : "Creating a Schedule Management Application with JavaFX"
+title: "Manajemen Jadwal - Menggunakan JavaFX"
+description : "Membuat Aplikasi Manajemen Jadwal dengan JavaFX"
 date: 2024-10-06
 categories: Project
 tags: [JavaFX, Java, Productivity]
 
 ---
 
-# Creating a Schedule Management Application with JavaFX
+# Membuat Aplikasi Manajemen Jadwal dengan JavaFX
 
-**Living Regularly** is an application developed by our team to help users **manage their schedules more easily and efficiently**. This application is equipped with **Alarm, AI Assistant, and Schedule Search** features, allowing users to check and manage their schedules by simply entering the desired date.
+**Living Regularly** adalah aplikasi yang dikembangkan oleh tim kami untuk membantu pengguna **mengelola jadwal mereka dengan lebih mudah dan efisien**. Aplikasi ini dilengkapi dengan fitur **Alarm, AI Assistant, dan Pencarian Jadwal**, memungkinkan pengguna untuk memeriksa dan mengelola jadwal mereka hanya dengan memasukkan tanggal yang diinginkan.
 
-## Main Features
-- ✅ **Schedule Management** – Allows users to create, edit, and delete their schedules.
-- ✅ **Reminder Alarm** – Provides notifications to remind users of important schedules.
-- ✅ **AI Assistant** – Helps automatically organize schedules based on user habits.
-- ✅ **Schedule Search** – Users can search for schedules based on specific dates.
-- ✅ **JavaFX Interface** – Uses JavaFX to create a modern and interactive user interface.
+## Fitur Utama
+- ✅ **Manajemen Jadwal** – Memungkinkan pengguna untuk membuat, mengedit, dan menghapus jadwal mereka.
+- ✅ **Alarm Pengingat** – Memberikan notifikasi untuk mengingatkan pengguna tentang jadwal penting.
+- ✅ **AI Assistant** – Membantu mengatur jadwal secara otomatis berdasarkan kebiasaan pengguna.
+- ✅ **Pencarian Jadwal** – Pengguna dapat mencari jadwal berdasarkan tanggal tertentu.
+- ✅ **Antarmuka JavaFX** – Menggunakan JavaFX untuk membuat antarmuka pengguna yang modern dan interaktif.
 
-## Technologies Used
-- **JavaFX** – For building the graphical user interface.
-- **Java** – The main programming language for backend logic.
-- **Database (MySQL/SQLite)** – To store schedule data persistently.
-- **FXML** – For structuring the user interface components.
-- **Artificial Intelligence** – Used in the AI assistant to help with schedule management.
+## Teknologi yang Digunakan
+- **JavaFX** – Untuk membangun antarmuka pengguna grafis.
+- **Java** – Bahasa pemrograman utama untuk logika backend.
+- **Database (MySQL/SQLite)** – Untuk menyimpan data jadwal secara persisten.
+- **FXML** – Untuk menyusun komponen antarmuka pengguna.
+- **Artificial Intelligence** – Digunakan dalam AI assistant untuk membantu manajemen jadwal.
 
-## Final Result
-🔗 [View Demo](https://yourprojectdemo.com)
-🔗 [Source Code](https://github.com/Yousran/livingregularly)
+## Hasil Akhir
+🔗 [Lihat Demo](https://yourprojectdemo.com)
+🔗 [Kode Sumber](https://github.com/Yousran/livingregularly)
 
-The **Living Regularly** project is our first step in building a **JavaFX-based schedule management platform**. This application is designed to help users **manage their schedules more effectively**, receive automatic reminders, and interact with an AI assistant that assists in structuring a better schedule.
+Proyek **Living Regularly** adalah langkah pertama kami dalam membangun **platform manajemen jadwal berbasis JavaFX**. Aplikasi ini dirancang untuk membantu pengguna **mengelola jadwal mereka dengan lebih efektif**, menerima pengingat otomatis, dan berinteraksi dengan AI assistant yang membantu menyusun jadwal yang lebih baik.
 
-In the future, we plan to develop **cloud integration, location-based reminders, and schedule collaboration features** to make this application even more advanced and beneficial for users.
+Ke depannya, kami berencana untuk mengembangkan **integrasi cloud, pengingat berbasis lokasi, dan fitur kolaborasi jadwal** untuk membuat aplikasi ini lebih canggih dan bermanfaat bagi pengguna.
 
-Thank you for reading! 🚀
+Terima kasih telah membaca! 🚀
 

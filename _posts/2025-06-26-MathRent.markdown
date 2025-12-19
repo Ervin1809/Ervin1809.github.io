@@ -1,298 +1,298 @@
 ---
 layout: post
-title: MathRent - Department of Mathematics Equipment Rental System
-description: Web application to facilitate equipment rental at the Department of Mathematics, Hasanuddin University
+title: MathRent - Sistem Peminjaman Perlengkapan Jurusan Matematika
+description: Aplikasi web untuk memfasilitasi peminjaman perlengkapan di Jurusan Matematika, Universitas Hasanuddin
 date: 2025-06-26
 categories: Project
 tags: [React, JSX, TailwindCSS, FastAPI, Python, JavaScript, Web-Application, University-System, Rental-Management, Full-Stack]
 image : /assets/img/mathRent/landing.png
 ---
 
-# MathRent - Department of Mathematics Equipment Rental System 📚🔧
+# MathRent - Sistem Peminjaman Perlengkapan Jurusan Matematika 📚🔧
 
 ---
 
-## 🎯 Overview
+## 🎯 Ringkasan
 
-**MathRent** is a web-based equipment rental system specifically designed for the **Department of Mathematics, Hasanuddin University**. This application replaces the manual system that required students to submit their student ID cards (KTM) when borrowing items such as attendance books, projectors, and classroom keys.
+**MathRent** adalah sistem peminjaman perlengkapan berbasis web yang dirancang khusus untuk **Jurusan Matematika, Universitas Hasanuddin**. Aplikasi ini menggantikan sistem manual yang mengharuskan mahasiswa menyerahkan kartu identitas mahasiswa (KTM) saat meminjam barang seperti buku absensi, proyektor, dan kunci ruangan.
 
-### 🏛️ Hasanuddin University - Department of Mathematics
+### 🏛️ Universitas Hasanuddin - Jurusan Matematika
 
-This system was developed to address the limitations of conventional borrowing systems in academic environments that require:
-- **Digitalization** of the rental process
-- **Data security** without the need for physical ID cards
-- **Efficiency** in inventory management
-- **Transparency** in rental history
+Sistem ini dikembangkan untuk mengatasi keterbatasan sistem peminjaman konvensional di lingkungan akademik yang memerlukan:
+- **Digitalisasi** proses peminjaman
+- **Keamanan data** tanpa perlu kartu identitas fisik
+- **Efisiensi** dalam pengelolaan inventaris
+- **Transparansi** dalam riwayat peminjaman
 
-### 💡 Problem Solution
+### 💡 Solusi Permasalahan
 
-**❌ Previous Problems:**
-- Students had to hand over their physical ID cards
-- Risk of losing or damaging the ID card
-- Time-consuming manual process
-- Difficult to track rental history
+**❌ Masalah Sebelumnya:**
+- Mahasiswa harus menyerahkan KTM fisik mereka
+- Risiko kehilangan atau kerusakan KTM
+- Proses manual yang memakan waktu
+- Sulit melacak riwayat peminjaman
 
-**✅ MathRent Solution:**
-- Digital system without the need for physical ID cards
-- Borrower data securely stored in the database
-- Fast and easy rental process
-- Real-time tracking and complete history
-
----
-
-## 👥 Target Users
-
-### 🎓 **Mathematics Department Students**
-
-**Eligibility Requirements** (NIM validation with Regex):
-
-| Study Program         | NIM Format     | Description                 |
-|----------------------|---------------|-----------------------------|
-| **Mathematics BSc**  | `H011xxxxxxx` | Undergraduate Mathematics   |
-| **Actuarial Science**| `H081xxxxxxx` | Undergraduate Actuarial Sci.|
-| **Mathematics MSc**  | `H012xxxxxxx` | Master of Mathematics       |
-| **Mathematics PhD**  | `H013xxxxxxx` | Doctoral Mathematics        |
-| **Information Systems** | `H071xxxxxxx` | Undergraduate Information Systems |
-
-### 👨‍💼 **Department Staff**
-- Academic staff of the mathematics department
-- Inventory managers
-- Rental system admins
+**✅ Solusi MathRent:**
+- Sistem digital tanpa perlu KTM fisik
+- Data peminjam tersimpan aman di basis data
+- Proses peminjaman yang cepat dan mudah
+- Pelacakan waktu nyata dan riwayat lengkap
 
 ---
 
-## ✨ Main Features
+## 👥 Pengguna Target
 
-### 🎓 **Student Features**
+### 🎓 **Mahasiswa Jurusan Matematika**
 
-#### 🔐 **Authentication System**
-- **Registration**: NIM validation according to study program
-- **Login**: Secure authentication with session management
-- **Profile Management**: Student personal data
+**Persyaratan Kelayakan** (Validasi NIM dengan Regex):
 
-#### 📦 **Inventory Management**
-- **Browse Items**: View list of available/unavailable items
-- **Item Details**: Complete information and specifications
-- **Rental Request**: Submit rental requests
-- **Real-time Status**: Live availability status
+| Program Studi         | Format NIM     | Deskripsi                 |
+|----------------------|---------------|---------------------------|
+| **Matematika S1**  | `H011xxxxxxx` | Sarjana Matematika   |
+| **Aktuaria**| `H081xxxxxxx` | Sarjana Aktuaria|
+| **Matematika S2**  | `H012xxxxxxx` | Magister Matematika       |
+| **Matematika S3**  | `H013xxxxxxx` | Doktor Matematika        |
+| **Sistem Informasi** | `H071xxxxxxx` | Sarjana Sistem Informasi |
 
-#### 📋 **Rental History**
-- **Personal History**: Individual rental history
-- **Status Tracking**: Pending, Approved, Returned
-- **Rental Details**: Transaction details
-
-### 👨‍💼 **Staff Features**
-
-#### 🔧 **Item Management (CRUD)**
-- **Create**: Add new items to inventory
-- **Read**: View all items and details
-- **Update**: Edit item information
-- **Delete**: Remove items from the system
-
-#### 👥 **User Management**
-- **Student List**: List of borrowing students
-- **Rental Requests**: Manage rental submissions
-- **Borrower Tracking**: Monitor active borrowers
-
-#### ✅ **Approval System**
-- **Request Approval**: Approve/reject rental requests
-- **Return Confirmation**: Confirm item returns
-- **Status Management**: Update rental status
+### 👨‍💼 **Staf Jurusan**
+- Staf akademik jurusan matematika
+- Pengelola inventaris
+- Administrator sistem peminjaman
 
 ---
 
-## 👨‍💻 Tech Stack
+## ✨ Fitur Utama
+
+### 🎓 **Fitur Mahasiswa**
+
+#### 🔐 **Sistem Autentikasi**
+- **Pendaftaran**: Validasi NIM sesuai program studi
+- **Masuk**: Autentikasi aman dengan manajemen sesi
+- **Manajemen Profil**: Data pribadi mahasiswa
+
+#### 📦 **Pengelolaan Inventaris**
+- **Jelajah Barang**: Melihat daftar barang tersedia/tidak tersedia
+- **Detail Barang**: Informasi dan spesifikasi lengkap
+- **Permintaan Peminjaman**: Mengajukan permintaan peminjaman
+- **Status Waktu Nyata**: Status ketersediaan langsung
+
+#### 📋 **Riwayat Peminjaman**
+- **Riwayat Pribadi**: Riwayat peminjaman individual
+- **Pelacakan Status**: Menunggu, Disetujui, Dikembalikan
+- **Detail Peminjaman**: Rincian transaksi
+
+### 👨‍💼 **Fitur Staf**
+
+#### 🔧 **Pengelolaan Barang (CRUD)**
+- **Buat**: Menambahkan barang baru ke inventaris
+- **Baca**: Melihat semua barang dan detailnya
+- **Perbarui**: Mengedit informasi barang
+- **Hapus**: Menghapus barang dari sistem
+
+#### 👥 **Manajemen Pengguna**
+- **Daftar Mahasiswa**: Daftar mahasiswa peminjam
+- **Permintaan Peminjaman**: Mengelola pengajuan peminjaman
+- **Pelacakan Peminjam**: Memantau peminjam aktif
+
+#### ✅ **Sistem Persetujuan**
+- **Persetujuan Permintaan**: Menyetujui/menolak permintaan peminjaman
+- **Konfirmasi Pengembalian**: Mengonfirmasi pengembalian barang
+- **Manajemen Status**: Memperbarui status peminjaman
+
+---
+
+## 👨‍💻 Teknologi yang Digunakan
 
 **Frontend:** React.js, JSX, TailwindCSS, React Hooks, React Router DOM
-**Backend:** FastAPI, Python, SQLite/PostgreSQL, JWT Authentication
-**Tools:** VS Code, Git, npm/yarn, pip
+**Backend:** FastAPI, Python, SQLite/PostgreSQL, Autentikasi JWT
+**Perangkat:** VS Code, Git, npm/yarn, pip
 
 ---
 
-## 🔗 Links
+## 🔗 Tautan
 
-- 🔗 [Source Code](https://github.com/Ervin1809/Project-Web-MathRent-2025)
-- 📚 [Documentation](https://github.com/Ervin1809/Project-Web-MathRent-2025/wiki)
+- 🔗 [Kode Sumber](https://github.com/Ervin1809/Project-Web-MathRent-2025)
+- 📚 [Dokumentasi](https://github.com/Ervin1809/Project-Web-MathRent-2025/wiki)
 
 ---
 
-## 📱 Screenshots & Demo
+## 📱 Tangkapan Layar dan Demo
 
-### 🏠 Landing & Authentication
+### 🏠 Halaman Utama dan Autentikasi
 
 <div style="margin-bottom: 30px;">
   <img src="/assets/img/mathRent/landing.png" alt="Landing Page" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-  <p style="text-align: center; font-style: italic; color: #666;"><strong>Landing Page</strong> - Welcome page with system overview</p>
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Halaman Utama</strong> - Halaman selamat datang dengan gambaran sistem</p>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 30px;">
   <div>
     <img src="/assets/img/mathRent/logincopy.png" alt="Login System" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Login System</strong> - Secure authentication for students & staff</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Sistem Masuk</strong> - Autentikasi aman untuk mahasiswa dan staf</p>
   </div>
   <div>
     <img src="/assets/img/mathRent/regiscopy.png" alt="Register System" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Register System</strong> - Create new account with NIM validation</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Sistem Pendaftaran</strong> - Membuat akun baru dengan validasi NIM</p>
   </div>
 </div>
 
 ---
 
-### 🎓 Student Interface
+### 🎓 Antarmuka Mahasiswa
 
 <div style="margin-bottom: 30px;">
   <img src="/assets/img/mathRent/homeMaha1.png" alt="Student Dashboard" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-  <p style="text-align: center; font-style: italic; color: #666;"><strong>Student Dashboard</strong> - Overview of available items and status</p>
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Dasbor Mahasiswa</strong> - Ringkasan barang tersedia dan status</p>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 30px;">
   <div>
     <img src="/assets/img/mathRent/homeDetail1.png" alt="Browse Items" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;">Browse Items - View available and unavailable items</p>
+    <p style="text-align: center; font-style: italic; color: #666;">Jelajah Barang - Melihat barang tersedia dan tidak tersedia</p>
   </div>
   <div>
     <img src="/assets/img/mathRent/homeDetail2.png" alt="Item Details" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;">Item Details - Detailed view with rental request button</p>
+    <p style="text-align: center; font-style: italic; color: #666;">Detail Barang - Tampilan detail dengan tombol permintaan peminjaman</p>
   </div>
 </div>
 
 <div style="margin-bottom: 30px;">
   <img src="/assets/img/mathRent/homeDetail4.png" alt="Rental Request" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-  <p style="text-align: center; font-style: italic; color: #666;"><strong>Rental Request</strong> - Fill rental form and submit request</p>
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Permintaan Peminjaman</strong> - Mengisi formulir peminjaman dan mengirim permintaan</p>
 </div>
 
 ---
 
-### 👨‍💼 Staff Interface
+### 👨‍💼 Antarmuka Staf
 
 <div style="margin-bottom: 30px;">
   <img src="/assets/img/mathRent/homeStaff.png" alt="Staff Dashboard" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-  <p style="text-align: center; font-style: italic; color: #666;"><strong>Staff Dashboard</strong> - Comprehensive admin panel</p>
+  <p style="text-align: center; font-style: italic; color: #666;"><strong>Dasbor Staf</strong> - Panel administrasi yang komprehensif</p>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 30px;">
   <div>
     <img src="/assets/img/mathRent/tambahbarang.png" alt="Item Management" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Item Management</strong> - CRUD operations for inventory</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Pengelolaan Barang</strong> - Operasi CRUD untuk inventaris</p>
   </div>
   <div>
     <img src="/assets/img/mathRent/historyPinjam.png" alt="Rental History" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-    <p style="text-align: center; font-style: italic; color: #666;"><strong>Rental History</strong> - Manage rental requests and approvals</p>
+    <p style="text-align: center; font-style: italic; color: #666;"><strong>Riwayat Peminjaman</strong> - Mengelola permintaan dan persetujuan peminjaman</p>
   </div>
 </div>
 
 ---
 
-## 💻 Project Structure
+## 💻 Struktur Proyek
 
-### 🏗️ **Directory Structure**
+### 🏗️ **Struktur Direktori**
 
 **Frontend (React + TailwindCSS):**
-- `DashboardDesign/src/` - Main source code
-  - `components/` - Reusable UI components
-  - `assets/` - Styles and static files
-  - `services/` - API integration
-  - `utils/` - Helper functions
+- `DashboardDesign/src/` - Kode sumber utama
+  - `components/` - Komponen UI yang dapat digunakan kembali
+  - `assets/` - Gaya dan berkas statis
+  - `services/` - Integrasi API
+  - `utils/` - Fungsi pembantu
 
 **Backend (FastAPI + Python):**
-- `FastAPI/app/` - Backend application
-  - `routers/` - API endpoints
-  - `crud/` - Database operations
-  - `models.py` - Database models
-  - `auth.py` - Authentication logic### 🔧 **API Endpoints**
+- `FastAPI/app/` - Aplikasi backend
+  - `routers/` - Titik akhir API
+  - `crud/` - Operasi basis data
+  - `models.py` - Model basis data
+  - `auth.py` - Logika autentikasi### 🔧 **Titik Akhir API**
 
-**Authentication**
-- `POST /auth/register` - Student registration
-- `POST /auth/login` - User login
-- `POST /auth/logout` - User logout
+**Autentikasi**
+- `POST /auth/register` - Pendaftaran mahasiswa
+- `POST /auth/login` - Masuk pengguna
+- `POST /auth/logout` - Keluar pengguna
 
-**Student Routes**
-- `GET /student/items` - Get available items
-- `GET /student/items/{id}` - Get item details
-- `POST /student/rentals` - Create rental request
-- `GET /student/rentals/history` - Get rental history
+**Rute Mahasiswa**
+- `GET /student/items` - Mendapatkan barang tersedia
+- `GET /student/items/{id}` - Mendapatkan detail barang
+- `POST /student/rentals` - Membuat permintaan peminjaman
+- `GET /student/rentals/history` - Mendapatkan riwayat peminjaman
 
-**Staff Routes**
-- `GET /staff/items` - Get all items (CRUD)
-- `POST /staff/items` - Create new item
-- `PUT /staff/items/{id}` - Update item
-- `DELETE /staff/items/{id}` - Delete item
-- `GET /staff/rentals` - Get all rental requests
-- `PUT /staff/rentals/{id}/approve` - Approve rental
-- `PUT /staff/rentals/{id}/return` - Confirm return
-
----
-
-## 🔐 Authentication & Authorization
-
-### 🎓 **Student Registration Validation**
-
-**NIM Validation Patterns:**
-
-- **H011xxxxxxx** - Mathematics BSc
-- **H081xxxxxxx** - Actuarial Science
-- **H012xxxxxxx** - Mathematics MSc
-- **H013xxxxxxx** - Mathematics PhD
-- **H071xxxxxxx** - Information Systems
-
-Validation uses regex pattern to ensure NIM matches the correct format for each study program.
-
-### 🔒 **JWT Token Authentication**
-
-**Security Features:**
-
-- Token-based authentication using JWT
-- Secure session management
-- 30-minute token expiration
-- Password hashing and validation
-- Protected API endpoints---
-
-## 📈 Project Status
-
-### ✅ **Completed Features**
-- [x] Student Authentication & Registration with NIM validation
-- [x] Staff Authentication System
-- [x] Item Catalog with Real-time Availability
-- [x] Rental Request System
-- [x] Staff CRUD Operations for Items
-- [x] Rental Approval Workflow
-- [x] Return Confirmation System
-- [x] Personal Rental History
-- [x] Responsive UI with TailwindCSS
-- [x] FastAPI Backend with JWT Authentication
-
-### 🚧 **Current Development**
-- [ ] Advanced Search & Filter System
-- [ ] Email Notifications for Rentals
-- [ ] Item Categories & Tags
-- [ ] Rental Duration Management
-- [ ] Analytics Dashboard for Staff
-
-### 🔮 **Future Roadmap**
-
-**Phase 1 - Enhanced Features**
-- [ ] QR Code Integration for Items
-- [ ] Mobile App (React Native)
-- [ ] WhatsApp Notifications
-- [ ] Rental Scheduling System
-
-**Phase 2 - Advanced Management**
-- [ ] Multi-Department Support
-- [ ] Inventory Analytics
-- [ ] Automated Reminder System
-- [ ] Integration with University Systems
-
-**Phase 3 - AI & Automation**
-- [ ] Predictive Analytics for Item Demand
-- [ ] Automated Inventory Reordering
-- [ ] Smart Recommendation System
-- [ ] Usage Pattern Analysis
+**Rute Staf**
+- `GET /staff/items` - Mendapatkan semua barang (CRUD)
+- `POST /staff/items` - Membuat barang baru
+- `PUT /staff/items/{id}` - Memperbarui barang
+- `DELETE /staff/items/{id}` - Menghapus barang
+- `GET /staff/rentals` - Mendapatkan semua permintaan peminjaman
+- `PUT /staff/rentals/{id}/approve` - Menyetujui peminjaman
+- `PUT /staff/rentals/{id}/return` - Mengonfirmasi pengembalian
 
 ---
 
-## 👨‍💻 Developer Team
+## 🔐 Autentikasi dan Otorisasi
 
-### 🎯 **Development Team**
+### 🎓 **Validasi Pendaftaran Mahasiswa**
+
+**Pola Validasi NIM:**
+
+- **H011xxxxxxx** - Matematika S1
+- **H081xxxxxxx** - Aktuaria
+- **H012xxxxxxx** - Matematika S2
+- **H013xxxxxxx** - Matematika S3
+- **H071xxxxxxx** - Sistem Informasi
+
+Validasi menggunakan pola regex untuk memastikan NIM sesuai dengan format yang benar untuk setiap program studi.
+
+### 🔒 **Autentikasi Token JWT**
+
+**Fitur Keamanan:**
+
+- Autentikasi berbasis token menggunakan JWT
+- Manajemen sesi yang aman
+- Masa berlaku token 30 menit
+- Hashing dan validasi kata sandi
+- Titik akhir API yang terlindungi---
+
+## 📈 Status Proyek
+
+### ✅ **Fitur yang Telah Selesai**
+- [x] Autentikasi dan Pendaftaran Mahasiswa dengan validasi NIM
+- [x] Sistem Autentikasi Staf
+- [x] Katalog Barang dengan Ketersediaan Waktu Nyata
+- [x] Sistem Permintaan Peminjaman
+- [x] Operasi CRUD Staf untuk Barang
+- [x] Alur Kerja Persetujuan Peminjaman
+- [x] Sistem Konfirmasi Pengembalian
+- [x] Riwayat Peminjaman Pribadi
+- [x] Antarmuka Responsif dengan TailwindCSS
+- [x] Backend FastAPI dengan Autentikasi JWT
+
+### 🚧 **Pengembangan Saat Ini**
+- [ ] Sistem Pencarian dan Filter Lanjutan
+- [ ] Notifikasi Email untuk Peminjaman
+- [ ] Kategori dan Tag Barang
+- [ ] Manajemen Durasi Peminjaman
+- [ ] Dasbor Analitik untuk Staf
+
+### 🔮 **Peta Jalan Masa Depan**
+
+**Fase 1 - Fitur yang Ditingkatkan**
+- [ ] Integrasi Kode QR untuk Barang
+- [ ] Aplikasi Mobile (React Native)
+- [ ] Notifikasi WhatsApp
+- [ ] Sistem Penjadwalan Peminjaman
+
+**Fase 2 - Manajemen Lanjutan**
+- [ ] Dukungan Multi-Jurusan
+- [ ] Analitik Inventaris
+- [ ] Sistem Pengingat Otomatis
+- [ ] Integrasi dengan Sistem Universitas
+
+**Fase 3 - AI dan Otomasi**
+- [ ] Analitik Prediktif untuk Permintaan Barang
+- [ ] Pemesanan Ulang Inventaris Otomatis
+- [ ] Sistem Rekomendasi Cerdas
+- [ ] Analisis Pola Penggunaan
+
+---
+
+## 👨‍💻 Tim Pengembang
+
+### 🎯 **Tim Pengembangan**
 
 <div align="center">
 
@@ -300,17 +300,17 @@ Validation uses regex pattern to ensure NIM matches the correct format for each 
 <tr>
 <td align="center">
 <b>M. Ervin</b><br>
-<i>Backend Developer</i><br>
+<i>Pengembang Backend</i><br>
 <a href="https://github.com/Ervin1809">@Ervin1809</a>
 </td>
 <td align="center">
 <b>Zaenab Muchsinin</b><br>
-<i>Frontend Developer</i><br>
+<i>Pengembang Frontend</i><br>
 <a href="https://github.com/zaynabzhaa10">@zaynabzhaa10</a>
 </td>
 <td align="center">
 <b>Athifah Nur Rahman</b><br>
-<i>Frontend Developer</i><br>
+<i>Pengembang Frontend</i><br>
 <a href="https://github.com/AthifahNurRahmanMD">@AthifahNurRahmanMD</a>
 </td>
 </tr>
@@ -318,36 +318,36 @@ Validation uses regex pattern to ensure NIM matches the correct format for each 
 
 </div>
 
-### 📋 **Team Roles & Responsibilities**
+### 📋 **Peran dan Tanggung Jawab Tim**
 
 <div align="center">
 
 <table style="border-collapse: collapse; width: 100%;">
 <thead>
 <tr>
-<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Team Member</b></th>
-<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Role</b></th>
-<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Responsibilities</b></th>
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Anggota Tim</b></th>
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Peran</b></th>
+<th style="border: 1px solid #dee2e6; padding: 12px; text-align: left;"><b>Tanggung Jawab</b></th>
 <th style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><b>GitHub</b></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="border: 1px solid #dee2e6; padding: 12px;"><b>M. Ervin</b></td>
-<td style="border: 1px solid #dee2e6; padding: 12px;">Backend Developer</td>
-<td style="border: 1px solid #dee2e6; padding: 12px;">API Development, Database Design, Authentication System</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Pengembang Backend</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Pengembangan API, Desain Basis Data, Sistem Autentikasi</td>
 <td style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><a href="https://github.com/Ervin1809">@Ervin1809</a></td>
 </tr>
 <tr>
 <td style="border: 1px solid #dee2e6; padding: 12px;"><b>Zaenab Muchsinin</b></td>
-<td style="border: 1px solid #dee2e6; padding: 12px;">Frontend Developer</td>
-<td style="border: 1px solid #dee2e6; padding: 12px;">UI/UX Implementation, React Components, State Management</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Pengembang Frontend</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Implementasi UI/UX, Komponen React, Manajemen State</td>
 <td style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><a href="https://github.com/zaynabzhaa10">@zaynabzhaa10</a></td>
 </tr>
 <tr>
 <td style="border: 1px solid #dee2e6; padding: 12px;"><b>Athifah Nur Rahman</b></td>
-<td style="border: 1px solid #dee2e6; padding: 12px;">Frontend Developer</td>
-<td style="border: 1px solid #dee2e6; padding: 12px;">Interface Design, TailwindCSS Styling, User Experience</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Pengembang Frontend</td>
+<td style="border: 1px solid #dee2e6; padding: 12px;">Desain Antarmuka, Styling TailwindCSS, Pengalaman Pengguna</td>
 <td style="border: 1px solid #dee2e6; padding: 12px; text-align: center;"><a href="https://github.com/AthifahNurRahmanMD">@AthifahNurRahmanMD</a></td>
 </tr>
 </tbody>
@@ -355,7 +355,7 @@ Validation uses regex pattern to ensure NIM matches the correct format for each 
 
 </div>
 
-### 🔧 **Technical Expertise**
+### 🔧 **Keahlian Teknis**
 
 <div align="center">
 
@@ -364,96 +364,96 @@ Validation uses regex pattern to ensure NIM matches the correct format for each 
 <td style="border: 1px solid #dee2e6; padding: 15px; text-align: center; width: 33%;">
 <b>🔙 Backend</b><br>
 <small>M. Ervin</small><br><br>
-• FastAPI Framework<br>
-• Python Development<br>
-• Database Management<br>
-• JWT Authentication<br>
-• API Documentation
+• Framework FastAPI<br>
+• Pengembangan Python<br>
+• Manajemen Basis Data<br>
+• Autentikasi JWT<br>
+• Dokumentasi API
 </td>
 <td style="border: 1px solid #dee2e6; padding: 15px; text-align: center; width: 33%;">
-<b>🎨 Frontend Lead</b><br>
+<b>🎨 Pemimpin Frontend</b><br>
 <small>Zaenab Muchsinin</small><br><br>
 • React.js & JSX<br>
-• Component Architecture<br>
-• State Management<br>
-• API Integration<br>
-• User Flow Design
+• Arsitektur Komponen<br>
+• Manajemen State<br>
+• Integrasi API<br>
+• Desain Alur Pengguna
 </td>
 <td style="border: 1px solid #dee2e6; padding: 15px; text-align: center; width: 33%;">
-<b>🎭 UI/UX Design</b><br>
+<b>🎭 Desain UI/UX</b><br>
 <small>Athifah Nur Rahman</small><br><br>
-• TailwindCSS Styling<br>
-• Responsive Design<br>
-• User Interface<br>
-• Visual Design<br>
-• User Experience
+• Styling TailwindCSS<br>
+• Desain Responsif<br>
+• Antarmuka Pengguna<br>
+• Desain Visual<br>
+• Pengalaman Pengguna
 </td>
 </tr>
 </table>
 
 </div>
 
-### 🏛️ **Institution**
-- **University**: Hasanuddin University
-- **Department**: Department of Mathematics
-- **Location**: Makassar, South Sulawesi, Indonesia
-- **Academic Year**: 2024/2025
+### 🏛️ **Institusi**
+- **Universitas**: Universitas Hasanuddin
+- **Jurusan**: Jurusan Matematika
+- **Lokasi**: Makassar, Sulawesi Selatan, Indonesia
+- **Tahun Akademik**: 2024/2025
 
-### 🤝 **Team Collaboration**
-- **Project Management**: GitHub Projects & Issues
-- **Code Review**: Pull Request workflow
-- **Communication**: Discord & WhatsApp
-- **Development**: Collaborative coding with Git branching
+### 🤝 **Kolaborasi Tim**
+- **Manajemen Proyek**: GitHub Projects & Issues
+- **Tinjauan Kode**: Alur kerja Pull Request
+- **Komunikasi**: Discord & WhatsApp
+- **Pengembangan**: Pengkodean kolaboratif dengan Git branching
 
 ---
 
-## 📞 Support & Contact
+## 📞 Dukungan dan Kontak
 
-### 🎓 **Academic Support**
-- **Department**: Department of Mathematics, Hasanuddin University
+### 🎓 **Dukungan Akademik**
+- **Jurusan**: Jurusan Matematika, Universitas Hasanuddin
 - **Email**: math@unhas.ac.id
 - **Website**: [https://math.unhas.ac.id](https://math.unhas.ac.id)
 
-### 💻 **Technical Support**
-- **GitHub Issues**: [Report Problems](https://github.com/Ervin1809/MathRent/issues)
-- **Feature Requests**: [Request Features](https://github.com/Ervin1809/MathRent/issues/new)
-- **Documentation**: [Wiki](https://github.com/Ervin1809/MathRent/wiki)
+### 💻 **Dukungan Teknis**
+- **GitHub Issues**: [Laporkan Masalah](https://github.com/Ervin1809/MathRent/issues)
+- **Permintaan Fitur**: [Minta Fitur](https://github.com/Ervin1809/MathRent/issues/new)
+- **Dokumentasi**: [Wiki](https://github.com/Ervin1809/MathRent/wiki)
 
-### 📧 **Developer Contact**
+### 📧 **Kontak Pengembang**
 - **Email**: ervinm23h@student.unhas.ac.id
 - **GitHub**: [@Ervin1809](https://github.com/Ervin1809)
 
 ---
 
-## 📄 License
+## 📄 Lisensi
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ervin1809/MathRent/blob/main/LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-### 🏛️ **Special Thanks**
-- **Hasanuddin University** - For providing the academic environment
-- **Department of Mathematics** - For the opportunity to solve real problems
-- **Department Staff** - For feedback and requirements gathering
-- **Fellow Students** - For testing and suggestions
-
-### 📚 **Technologies Used**
-- **React.js** - Frontend framework
-- **TailwindCSS** - CSS framework
-- **FastAPI** - Python web framework
-- **SQLAlchemy** - Database ORM
-- **JWT** - Authentication standard
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](https://github.com/Ervin1809/MathRent/blob/main/LICENSE) untuk detailnya.
 
 ---
 
-**Made with ❤️ for Hasanuddin University - Department of Mathematics**
+## 🙏 Ucapan Terima Kasih
 
-*Digitizing academic processes, one system at a time*
+### 🏛️ **Terima Kasih Khusus**
+- **Universitas Hasanuddin** - Untuk menyediakan lingkungan akademik
+- **Jurusan Matematika** - Untuk kesempatan memecahkan masalah nyata
+- **Staf Jurusan** - Untuk masukan dan pengumpulan persyaratan
+- **Rekan Mahasiswa** - Untuk pengujian dan saran
 
-⭐ **[Star this project](https://github.com/Ervin1809/Project-Web-MathRent-2025)** if you find it useful for your university!
+### 📚 **Teknologi yang Digunakan**
+- **React.js** - Framework frontend
+- **TailwindCSS** - Framework CSS
+- **FastAPI** - Framework web Python
+- **SQLAlchemy** - ORM basis data
+- **JWT** - Standar autentikasi
 
 ---
 
-*Last updated: June 26, 2025*
+**Dibuat dengan ❤️ untuk Universitas Hasanuddin - Jurusan Matematika**
+
+*Mendigitalisasi proses akademik, satu sistem dalam satu waktu*
+
+⭐ **[Beri bintang proyek ini](https://github.com/Ervin1809/Project-Web-MathRent-2025)** jika Anda merasa berguna untuk universitas Anda!
+
+---
+
+*Terakhir diperbarui: 26 Juni 2025*
